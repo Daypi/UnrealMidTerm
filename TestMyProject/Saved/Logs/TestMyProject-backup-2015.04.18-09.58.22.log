@@ -1,0 +1,891 @@
+﻿Log file open, 04/17/15 13:22:55
+LogInit:Display: Running engine for game: TestMyProject
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: D:/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.17-04.22.55:253][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.17-04.22.55:306][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.17-04.22.55:324][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.17-04.22.55:335][  0]LogInit: Object subsystem initialized
+[2015.04.17-04.22.55:337][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.17-04.22.55:337][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-04.22.55:337][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.17-04.22.55:337][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-04.22.55:337][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.17-04.22.55:337][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.17-04.22.55:337][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.17-04.22.55:343][  0]LogInit: Computer: MSI
+[2015.04.17-04.22.55:343][  0]LogInit: User: user
+[2015.04.17-04.22.55:343][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.17-04.22.55:343][  0]LogInit: High frequency timer resolution =2.338343 MHz
+[2015.04.17-04.22.55:343][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.17-04.22.55:343][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.17-04.22.55:343][  0]LogMemory: Process Physical Memory: 47.16 MB used, 47.16 MB peak
+[2015.04.17-04.22.55:343][  0]LogMemory: Process Virtual Memory: 23.13 MB used, 24.42 MB peak
+[2015.04.17-04.22.55:343][  0]LogMemory: Physical Memory: 4830.43 MB used, 8111.01 MB total
+[2015.04.17-04.22.55:343][  0]LogMemory: Virtual Memory: 269.27 MB used, 134217728.00 MB total
+[2015.04.17-04.22.55:377][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 870M (Feature Level 11_0)
+[2015.04.17-04.22.55:377][  0]LogD3D11RHI: Adapter has 2992MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 1 output[s]
+[2015.04.17-04.22.55:384][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.17-04.22.55:384][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 0 output[s]
+[2015.04.17-04.22.55:385][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.17-04.22.55:385][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.17-04.22.55:385][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.17-04.22.55:414][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.17-04.22.55:426][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.17-04.22.55:489][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.17-04.22.55:677][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.17-04.23.02:061][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-04.23.02:526][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-04.23.02:583][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.17-04.23.02:633][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/user/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.04.17-04.23.02:633][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.04.17-04.23.02:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.17-04.23.02:634][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.17-04.23.02:710][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.04.17-04.23.02:723][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.17-04.23.02:857][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.04.17-04.23.03:010][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.17-04.23.03:010][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.17-04.23.03:581][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.17-04.23.03:660][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.17-04.23.04:506][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.17-04.23.04:652][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/KMU/Unreal/UnrealMidTerm/TestMyProject/Binaries/Win64. Error: 0
+[2015.04.17-04.23.04:790][  0]SourceControl: Info Source control is disabled
+[2015.04.17-04.23.04:790][  0]SourceControl: Info Source control is disabled
+[2015.04.17-04.23.04:796][  0]SourceControl: Info Source control is disabled
+[2015.04.17-04.23.04:900][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.04.17-04.23.04:900][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.04.17-04.23.04:957][  0]LogEngine: Initializing Engine...
+[2015.04.17-04.23.05:112][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.17-04.23.05:121][  0]LogInit: FAudioDevice initialized.
+[2015.04.17-04.23.05:138][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.17-04.23.05:165][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/user/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.04.17-04.23.05:171][  0]LogInit: Texture streaming: Enabled
+[2015.04.17-04.23.05:194][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.17-04.23.05:194][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.04.17-04.23.05:195][  0]LogAnalytics: SetUserId affa6701517543f44b01d7da1c9ec978
+[2015.04.17-04.23.05:195][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.17-04.23.05:267][  0]LogInit: Transaction tracking system initialized
+[2015.04.17-04.23.05:358][  0]BlueprintLog: New page: Editor Load
+[2015.04.17-04.23.05:386][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.04.17-04.23.05:387][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.17-04.23.05:911][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-04.23.06:312][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-04.23.06:474][  0]LogConsoleResponse:Display: 
+[2015.04.17-04.23.06:522][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.17-04.23.06:694][  0]SourceControl: Info Source control is disabled
+[2015.04.17-04.23.06:694][  0]Cmd: MAP LOAD FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.04.17-04.23.06:694][  0]LightingResults: New page: Lighting Build
+[2015.04.17-04.23.06:702][  0]MapCheck: New page: Map Check
+[2015.04.17-04.23.06:702][  0]LightingResults: New page: Lighting Build
+[2015.04.17-04.23.06:712][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CFF521940
+[2015.04.17-04.23.07:062][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.17-04.23.07:063][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.04.17-04.23.07:063][  0]Cmd: MAP CHECKDEP
+[2015.04.17-04.23.07:063][  0]MapCheck: New page: Example_Map - Apr 17, 2015, 10:23:07 PM
+[2015.04.17-04.23.07:138][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.33ms to complete.
+[2015.04.17-04.23.07:138][  0]LogFileHelpers: Loading map 'Example_Map' took 0.444
+[2015.04.17-04.23.07:318][  0]LogCollectionManager: Loaded 0 collections in 0.000844 seconds
+[2015.04.17-04.23.07:349][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.17-04.23.07:355][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.17-04.23.07:380][  0]LogLoad: Full Startup: 14.16 seconds (BP compile: 0.05 seconds)
+[2015.04.17-04.23.07:731][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-04.23.08:005][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x592.
+[2015.04.17-04.23.09:834][  6]LogAssetRegistry: Asset discovery search completed in 4.4593 seconds
+[2015.04.17-04.23.34:499][117]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.17-04.23.37:445][292]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.04.17-04.23.40:087][436]Cmd: MAP LOAD FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.04.17-04.23.40:087][436]LightingResults: New page: Lighting Build
+[2015.04.17-04.23.40:106][436]LoadErrors: New page: Loading map: MyMap-1st.umap
+[2015.04.17-04.23.40:107][436]MapCheck: New page: Map Check
+[2015.04.17-04.23.40:107][436]LightingResults: New page: Lighting Build
+[2015.04.17-04.23.40:117][436]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF72AA020
+[2015.04.17-04.23.40:122][436]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.17-04.23.40:122][436]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.23.40:147][436]Cmd: MAP CHECKDEP
+[2015.04.17-04.23.40:147][436]MapCheck: New page: MyMap-1st - Apr 17, 2015, 10:23:40 PM
+[2015.04.17-04.23.40:210][436]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.545ms to complete.
+[2015.04.17-04.23.40:210][436]LogFileHelpers: Loading map 'MyMap-1st' took 0.125
+[2015.04.17-04.23.40:241][437]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.17-04.23.40:242][437]Cmd: UpdateLandscapeEditorData
+[2015.04.17-04.23.41:344][492]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.23.41:345][492]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:23:41 PM)
+[2015.04.17-04.23.41:366][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021454s)
+[2015.04.17-04.23.41:367][492]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2015.04.17-04.23.41:368][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023332s)
+[2015.04.17-04.23.41:564][492]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.23.41:566][492]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.23.41:568][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.23.41
+[2015.04.17-04.23.41:569][492]LogWorld: Bringing up level for play took: 0.003083
+[2015.04.17-04.23.41:571][492]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.703
+[2015.04.17-04.24.20:392][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF8A079C0
+[2015.04.17-04.24.21:614][623]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.24.21:614][623]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:24:21 PM)
+[2015.04.17-04.24.21:636][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021360s)
+[2015.04.17-04.24.21:637][623]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2015.04.17-04.24.21:637][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.022704s)
+[2015.04.17-04.24.21:680][623]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.24.21:682][623]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.24.21:684][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.24.21
+[2015.04.17-04.24.21:685][623]LogWorld: Bringing up level for play took: 0.002917
+[2015.04.17-04.24.21:686][623]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.587
+[2015.04.17-04.27.21:151][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF70E9800
+[2015.04.17-04.30.44:561][358]LogEditorViewport: Clicking on Actor (LMB): JumpPad_C (JumpPad2)
+[2015.04.17-04.30.53:588][859]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.17-04.30.56:328][ 13]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-04.31.02:340][483]LogRenderer:Warning: Reallocating scene render targets to support 1616x904.
+[2015.04.17-04.31.03:423][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.31.12:248][203]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.04.17-04.31.16:675][447]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.04.17-04.31.17:952][493]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2015.04.17-04.31.18:215][505]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2015.04.17-04.31.18:226][505]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.31.18:244][505]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.31.19:732][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_WideCapsule)
+[2015.04.17-04.31.19:746][578]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.31.37:324][381]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.04.17-04.31.39:557][495]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.17-04.33.00:485][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_WideCapsule)
+[2015.04.17-04.33.00:493][928]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.33.22:933][874]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-04.33.22:937][874]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.04.17-04.33.22:973][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.17-04.33.22:991][874]LogPlayLevel: PIE:  Blueprint regeneration took 57 ms (1 blueprints)
+[2015.04.17-04.33.22:991][874]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:33:22 PM)
+[2015.04.17-04.33.23:014][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023217s)
+[2015.04.17-04.33.23:016][874]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2015.04.17-04.33.23:016][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.024724s)
+[2015.04.17-04.33.23:052][874]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.33.23:053][874]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.33.23:055][874]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.33.23
+[2015.04.17-04.33.23:056][874]LogWorld: Bringing up level for play took: 0.002821
+[2015.04.17-04.33.23:057][874]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.792
+[2015.04.17-04.33.41:519][913]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.33.41:572][913]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.33.41:596][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF8AD84A0
+[2015.04.17-04.33.42:542][952]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.33.44:114][ 83]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.33.52:555][856]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.33.54:669][ 27]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.34.11:096][356]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.35.20:828][590]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.35.20:829][590]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:35:20 PM)
+[2015.04.17-04.35.20:853][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022860s)
+[2015.04.17-04.35.20:853][590]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2015.04.17-04.35.20:853][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023955s)
+[2015.04.17-04.35.20:884][590]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.35.20:886][590]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.35.20:888][590]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.35.20
+[2015.04.17-04.35.20:888][590]LogWorld: Bringing up level for play took: 0.002652
+[2015.04.17-04.35.20:890][590]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.624
+[2015.04.17-04.35.42:994][817]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.35.43:020][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C952014E0
+[2015.04.17-04.37.59:886][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.17-04.38.00:368][290]LogSavePackage: Save=421.413788ms
+[2015.04.17-04.38.00:368][290]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st_Auto1526988654E2856C249B8CFA746F55BFC.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto1.umap'
+[2015.04.17-04.38.00:375][290]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyMap-1st' took 0.590
+[2015.04.17-04.38.00:375][290]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.590
+[2015.04.17-04.38.00:384][290]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/JumpPad] ([1] browsable assets)...
+[2015.04.17-04.38.00:419][290]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/JumpPad.JumpPad]
+[2015.04.17-04.38.00:419][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/JumpPad]
+[2015.04.17-04.38.00:422][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/JumpPad" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Blueprints/JumpPad_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.17-04.38.00:773][290]LogSavePackage: Save=343.673706ms
+[2015.04.17-04.38.00:773][290]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/JumpPad_Auto1A85363AF42C1E2163FA890A31B8702C7.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Blueprints/JumpPad_Auto1.uasset'
+[2015.04.17-04.38.00:776][290]LogFileHelpers: Auto-saving content packages took 0.401
+[2015.04.17-04.39.13:685][526]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.39.13:685][526]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:39:13 PM)
+[2015.04.17-04.39.13:713][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027757s)
+[2015.04.17-04.39.13:714][526]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2015.04.17-04.39.13:714][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.028850s)
+[2015.04.17-04.39.13:746][526]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.39.13:748][526]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.39.13:751][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.39.13
+[2015.04.17-04.39.13:751][526]LogWorld: Bringing up level for play took: 0.002983
+[2015.04.17-04.39.13:753][526]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.513
+[2015.04.17-04.39.15:377][604]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.39.15:403][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF9EA1EE0
+[2015.04.17-04.39.17:038][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-04.39.17:464][689]LogSavePackage: Save=402.189514ms
+[2015.04.17-04.39.17:464][689]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st74A2748C4E7DC7D6E010DEBF9CFBAA7D.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-04.39.17:492][689]LogFileHelpers: Saving map 'MyMap-1st' took 0.558
+[2015.04.17-04.39.17:494][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/JumpPad" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/JumpPad.uasset" SILENT=true
+[2015.04.17-04.39.17:507][689]LogSavePackage: Save=9.954912ms
+[2015.04.17-04.39.17:507][689]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/JumpPadB1D9C05F4C776795199C30AA0E1CD077.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/JumpPad.uasset'
+[2015.04.17-04.39.24:528][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/JumpPad" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/JumpPad.uasset" SILENT=true
+[2015.04.17-04.39.24:840][301]LogSavePackage: Save=307.970215ms
+[2015.04.17-04.39.24:840][301]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/JumpPad540E8D3B42D1EDEE8ABCBF907A257577.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/JumpPad.uasset'
+[2015.04.17-04.39.27:911][510]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-04.39.27:922][510]LogPlayLevel: [PIE] Compiling JumpPad before PIE...
+[2015.04.17-04.39.27:987][510]LogPlayLevel: PIE:  Blueprint regeneration took 76 ms (1 blueprints)
+[2015.04.17-04.39.27:987][510]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:39:27 PM)
+[2015.04.17-04.39.28:010][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022120s)
+[2015.04.17-04.39.28:011][510]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2015.04.17-04.39.28:011][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023142s)
+[2015.04.17-04.39.28:045][510]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.39.28:046][510]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.39.28:049][510]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.39.28
+[2015.04.17-04.39.28:050][510]LogWorld: Bringing up level for play took: 0.003406
+[2015.04.17-04.39.28:051][510]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.214
+[2015.04.17-04.39.48:611][625]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.39.48:639][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF9FA1D00
+[2015.04.17-04.39.49:855][676]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.39.49:855][676]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:39:49 PM)
+[2015.04.17-04.39.49:877][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022001s)
+[2015.04.17-04.39.49:879][676]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2015.04.17-04.39.49:879][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023245s)
+[2015.04.17-04.39.49:910][676]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.39.49:912][676]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.39.49:914][676]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.39.49
+[2015.04.17-04.39.49:915][676]LogWorld: Bringing up level for play took: 0.002882
+[2015.04.17-04.39.49:916][676]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.35
+[2015.04.17-04.40.01:780][307]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.40.01:847][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CFCCF7D80
+[2015.04.17-04.40.02:538][337]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.40.02:538][337]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:40:02 PM)
+[2015.04.17-04.40.02:568][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029172s)
+[2015.04.17-04.40.02:569][337]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2015.04.17-04.40.02:569][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.030114s)
+[2015.04.17-04.40.02:600][337]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.40.02:602][337]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.40.02:605][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.40.02
+[2015.04.17-04.40.02:605][337]LogWorld: Bringing up level for play took: 0.002937
+[2015.04.17-04.40.02:606][337]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.341
+[2015.04.17-04.40.19:612][255]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.40.19:679][256]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF9FA3560
+[2015.04.17-04.40.22:044][357]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.40.22:044][357]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:40:22 PM)
+[2015.04.17-04.40.22:066][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022033s)
+[2015.04.17-04.40.22:067][357]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2015.04.17-04.40.22:067][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023098s)
+[2015.04.17-04.40.22:097][357]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.40.22:099][357]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.40.22:102][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.40.22
+[2015.04.17-04.40.22:102][357]LogWorld: Bringing up level for play took: 0.002812
+[2015.04.17-04.40.22:103][357]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.163
+[2015.04.17-04.41.02:406][574]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.41.02:473][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF8AD8860
+[2015.04.17-04.41.06:877][764]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.17-04.41.41:091][711]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.41.41:091][711]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:41:41 PM)
+[2015.04.17-04.41.41:116][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025012s)
+[2015.04.17-04.41.41:117][711]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2015.04.17-04.41.41:118][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.026166s)
+[2015.04.17-04.41.41:149][711]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.41.41:151][711]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.41.41:153][711]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.41.41
+[2015.04.17-04.41.41:154][711]LogWorld: Bringing up level for play took: 0.002912
+[2015.04.17-04.41.41:155][711]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.89
+[2015.04.17-04.41.53:573][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CF8AD8900
+[2015.04.17-04.43.59:713][573]LogEditorViewport: Clicking on Actor (LMB): JumpPad_C (JumpPad)
+[2015.04.17-04.45.21:785][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.04.17-04.45.23:219][378]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.04.17-04.45.28:908][633]LogActorFactory: Actor Factory created Shape_Cube
+[2015.04.17-04.45.29:536][664]LogActorFactory: Actor Factory created Shape_Cube
+[2015.04.17-04.45.29:546][664]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.45.29:564][664]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.45.57:264][962]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.45.57:264][962]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:45:57 PM)
+[2015.04.17-04.45.57:287][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023314s)
+[2015.04.17-04.45.57:289][962]LogPlayLevel: PIE: World Init took: (0.001466s)
+[2015.04.17-04.45.57:289][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.024953s)
+[2015.04.17-04.45.57:319][962]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.45.57:320][962]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.45.57:322][962]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.45.57
+[2015.04.17-04.45.57:323][962]LogWorld: Bringing up level for play took: 0.002728
+[2015.04.17-04.45.57:324][962]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 1.058
+[2015.04.17-04.46.02:502][246]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.46.02:531][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C8C626200
+[2015.04.17-04.46.19:306][  1]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.46.19:307][  1]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:46:19 PM)
+[2015.04.17-04.46.19:329][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022069s)
+[2015.04.17-04.46.19:330][  1]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2015.04.17-04.46.19:330][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023086s)
+[2015.04.17-04.46.19:366][  1]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.46.19:368][  1]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.46.19:370][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.46.19
+[2015.04.17-04.46.19:370][  1]LogWorld: Bringing up level for play took: 0.002760
+[2015.04.17-04.46.19:372][  1]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.894
+[2015.04.17-04.46.32:502][700]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.46.32:570][701]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C8BAC7240
+[2015.04.17-04.46.49:287][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-04.46.49:730][467]LogSavePackage: Save=413.870422ms
+[2015.04.17-04.46.49:730][467]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st491803444A647EDF39A5D19CA7A5E4F8.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-04.46.49:757][467]LogFileHelpers: Saving map 'MyMap-1st' took 0.548
+[2015.04.17-04.46.50:995][522]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.46.50:996][522]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:46:50 PM)
+[2015.04.17-04.46.51:018][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022643s)
+[2015.04.17-04.46.51:019][522]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2015.04.17-04.46.51:019][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.023616s)
+[2015.04.17-04.46.51:052][522]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.46.51:054][522]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.46.51:057][522]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.46.51
+[2015.04.17-04.46.51:057][522]LogWorld: Bringing up level for play took: 0.003156
+[2015.04.17-04.46.51:058][522]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.793
+[2015.04.17-04.46.58:987][951]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.46.59:054][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C98B87E20
+[2015.04.17-04.47.06:061][257]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.17-04.47.09:917][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2015.04.17-04.47.09:926][434]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.47.40:280][ 76]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.04.17-04.47.55:491][557]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-04.47.55:505][557]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.47.55:955][577]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-04.47.55:963][577]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.48.05:020][ 12]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.04.17-04.48.22:344][525]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.48.22:360][525]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.48.28:910][832]EditorErrors: New page: Actor attachment
+[2015.04.17-04.48.29:806][875]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.48.30:291][897]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.52.13:709][295]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.52.31:623][528]LogInit: Transaction tracking system initialized
+[2015.04.17-04.52.31:638][528]EditorErrors: New page: Matinee Initialization
+[2015.04.17-04.54.06:051][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-04.54.06:061][863]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.54.07:691][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-04.54.07:699][959]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.54.09:250][ 54]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.54.38:902][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.17-04.54.50:088][222]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.55.16:257][211]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.55.16:275][211]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.55.45:816][  7]LogEditorTransaction: Undo Move Loop End Marker
+[2015.04.17-04.55.46:428][ 80]LogEditorTransaction: Undo NewTrack
+[2015.04.17-04.55.52:749][796]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.55.52:767][796]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.57.41:775][156]Cmd: TRANSACTION UNDO
+[2015.04.17-04.57.41:775][156]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.57.42:271][184]Cmd: TRANSACTION UNDO
+[2015.04.17-04.57.42:271][184]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.57.42:557][198]Cmd: TRANSACTION UNDO
+[2015.04.17-04.57.42:557][198]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.57.42:872][214]Cmd: TRANSACTION UNDO
+[2015.04.17-04.57.42:872][214]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.57.43:150][228]Cmd: TRANSACTION UNDO
+[2015.04.17-04.57.43:150][228]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.03:386][147]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.17-04.58.04:538][203]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.04:538][203]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.11:096][486]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.17-04.58.11:610][509]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.17-04.58.15:291][659]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.58.29:891][252]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.17-04.58.36:495][509]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.36:495][509]LogEditorTransaction: Undo Drag 3D Trajectory Handle
+[2015.04.17-04.58.37:338][548]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.37:338][548]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.37:556][558]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.37:556][558]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.38:349][594]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.38:349][594]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.42:382][758]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.42:382][758]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.42:863][779]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.42:863][779]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.43:252][799]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.43:252][799]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-04.58.43:574][815]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.43:574][815]LogEditorTransaction: Undo Add Key
+[2015.04.17-04.58.43:872][829]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.43:872][829]LogEditorTransaction: Undo Move Loop Start Marker
+[2015.04.17-04.58.44:283][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-04.58.44:296][848]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.58.44:744][868]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.44:744][868]LogEditorTransaction: Undo NewTrack
+[2015.04.17-04.58.44:985][879]Cmd: TRANSACTION UNDO
+[2015.04.17-04.58.44:985][879]LogEditorTransaction: Undo New Group
+[2015.04.17-04.59.01:323][944]Cmd: TRANSACTION UNDO
+[2015.04.17-04.59.01:323][944]LogEditorTransaction: Undo Move End Marker
+[2015.04.17-04.59.21:743][909]LogEditorTransaction: Undo Move End Marker
+[2015.04.17-04.59.25:660][343]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.59.28:188][502]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-04.59.28:188][502]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 10:59:28 PM)
+[2015.04.17-04.59.28:233][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045248s)
+[2015.04.17-04.59.28:234][502]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2015.04.17-04.59.28:234][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.046408s)
+[2015.04.17-04.59.28:271][502]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-04.59.28:272][502]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-04.59.28:275][502]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-13.59.28
+[2015.04.17-04.59.28:275][502]LogWorld: Bringing up level for play took: 0.002955
+[2015.04.17-04.59.28:277][502]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.011
+[2015.04.17-04.59.29:694][575]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-04.59.29:720][575]LogExit: Transaction tracking system shut down
+[2015.04.17-04.59.29:721][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C95201580
+[2015.04.17-04.59.42:754][188]LogInit: Transaction tracking system initialized
+[2015.04.17-04.59.42:754][188]EditorErrors: New page: Matinee Initialization
+[2015.04.17-05.00.13:913][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-05.00.13:921][599]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.00.51:891][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Platform_Horizontal)
+[2015.04.17-05.00.51:899][501]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.01.01:454][399]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.01.01:471][399]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.01.30:094][545]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.30:094][545]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-05.01.30:789][579]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.30:789][579]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-05.01.31:189][600]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.31:189][600]LogEditorTransaction: Undo Update Key Frame
+[2015.04.17-05.01.31:594][620]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.31:594][620]LogEditorTransaction: Undo Add Key
+[2015.04.17-05.01.32:097][646]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.32:097][646]LogEditorTransaction: Undo NewTrack
+[2015.04.17-05.01.32:460][663]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.32:460][663]LogEditorTransaction: Undo New Group
+[2015.04.17-05.01.32:788][680]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.32:788][680]LogEditorTransaction: Undo Group Delete
+[2015.04.17-05.01.35:871][824]Cmd: TRANSACTION UNDO
+[2015.04.17-05.01.35:871][824]LogEditorTransaction: Undo New Group
+[2015.04.17-05.02.00:798][626]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.02.03:621][940]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.02.03:644][940]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.05.37:365][227]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.05.39:793][387]LogExit: Transaction tracking system shut down
+[2015.04.17-05.05.39:915][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.05.40:391][387]LogSavePackage: Save=445.636505ms
+[2015.04.17-05.05.40:391][387]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1stF13145F245B3256848A8038BF408485B.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.05.40:415][387]LogFileHelpers: Saving map 'MyMap-1st' took 0.580
+[2015.04.17-05.05.42:445][484]LogInit: Transaction tracking system initialized
+[2015.04.17-05.05.42:464][484]EditorErrors: New page: Matinee Initialization
+[2015.04.17-05.05.49:127][225]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.05.51:957][417]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.17-05.05.51:957][417]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 11:05:51 PM)
+[2015.04.17-05.05.51:981][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023451s)
+[2015.04.17-05.05.51:982][417]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2015.04.17-05.05.51:982][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.024402s)
+[2015.04.17-05.05.52:011][417]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-05.05.52:013][417]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-05.05.52:015][417]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.17-14.05.52
+[2015.04.17-05.05.52:016][417]LogWorld: Bringing up level for play took: 0.002908
+[2015.04.17-05.05.52:017][417]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.249
+[2015.04.17-05.06.01:201][947]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.06.01:231][947]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C904AE340
+[2015.04.17-05.06.01:231][947]LogExit: Transaction tracking system shut down
+[2015.04.17-05.06.59:823][393]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.07.15:534][112]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.17-05.07.15:535][112]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-05.07.17:965][206]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.07.20:488][305]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.07.24:869][473]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.07.26:681][543]LogEditorActor: Deleted Actor: TriggerBox
+[2015.04.17-05.07.26:682][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.17-05.07.26:714][543]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.04.17-05.08.13:768][469]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.08.14:723][515]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.09.40:479][750]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.17-05.09.42:532][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2015.04.17-05.14.22:125][499]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.14.23:621][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.17-05.14.49:057][161]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.14.52:761][377]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.15.52:623][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.17-05.15.53:119][658]LogSavePackage: Save=449.331421ms
+[2015.04.17-05.15.53:119][658]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st_Auto2D19DC6F04241A896583093A337CB3C82.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto2.umap'
+[2015.04.17-05.15.53:125][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyMap-1st' took 0.555
+[2015.04.17-05.15.53:125][658]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.555
+[2015.04.17-05.15.53:132][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Platform_Horizontal_Blueprint] ([1] browsable assets)...
+[2015.04.17-05.15.53:156][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Platform_Horizontal_Blueprint.Platform_Horizontal_Blueprint]
+[2015.04.17-05.15.53:156][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Platform_Horizontal_Blueprint]
+[2015.04.17-05.15.53:552][658]LogSavePackage: Save=390.420471ms
+[2015.04.17-05.15.53:552][658]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Platform_Horizontal_Blueprint_Auto282FF662D4001A891F21ACC8A66D008EF.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Blueprints/Platform_Horizontal_Blueprint_Auto2.uasset'
+[2015.04.17-05.15.53:632][658]LogFileHelpers: Auto-saving content packages took 0.507
+[2015.04.17-05.16.24:002][935]LogEditorTransaction: Undo Add Node
+[2015.04.17-05.17.56:979][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.17.57:434][ 18]LogSavePackage: Save=397.136353ms
+[2015.04.17-05.17.57:434][ 18]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1stDB9338E94F2681448C7AF2AA255D50DD.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.17.57:460][ 18]LogFileHelpers: Saving map 'MyMap-1st' took 0.563
+[2015.04.17-05.17.57:478][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/JumpPad" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/JumpPad.uasset" SILENT=true
+[2015.04.17-05.17.57:803][ 18]LogSavePackage: Save=319.091766ms
+[2015.04.17-05.17.57:803][ 18]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/JumpPadA24F868548346AE91985CBBD8B6A6BE3.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/JumpPad.uasset'
+[2015.04.17-05.17.58:182][ 18]LogSavePackage: Save=357.644714ms
+[2015.04.17-05.17.58:182][ 18]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Platform_Horizontal_Blueprint43DDFADC45FA2615D61FA78C67D1D49E.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/Platform_Horizontal_Blueprint.uasset'
+[2015.04.17-05.17.59:561][100]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.03:462][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.19:557][281]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.17-05.18.23:615][466]LogSavePackage: Save=357.739655ms
+[2015.04.17-05.18.23:615][466]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Platform_Horizontal_Blueprint318C974D49264CF8D7F38786180B3278.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/Platform_Horizontal_Blueprint.uasset'
+[2015.04.17-05.18.25:425][571]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.28:161][725]LogSavePackage: Save=7.277376ms
+[2015.04.17-05.18.28:161][725]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Platform_Horizontal_Blueprint285B951D482F848A6FF037894BFBCE54.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/Platform_Horizontal_Blueprint.uasset'
+[2015.04.17-05.18.33:191][996]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-05.18.33:199][996]LogPlayLevel: [PIE] Compiling JumpPad before PIE...
+[2015.04.17-05.18.33:250][996]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.33:262][996]LogPlayLevel: [PIE] Compiling Platform_Horizontal_Blueprint before PIE...
+[2015.04.17-05.18.33:305][996]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.33:315][996]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.33:345][996]LogPlayLevel: PIE:  Blueprint regeneration took 153 ms (2 blueprints)
+[2015.04.17-05.18.33:346][996]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 11:18:33 PM)
+[2015.04.17-05.18.33:370][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023779s)
+[2015.04.17-05.18.33:371][996]LogPlayLevel: PIE: World Init took: (0.001603s)
+[2015.04.17-05.18.33:371][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.025601s)
+[2015.04.17-05.18.33:405][996]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-05.18.33:407][996]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-05.18.33:410][996]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 60) at 2015.04.17-14.18.33
+[2015.04.17-05.18.33:410][996]LogWorld: Bringing up level for play took: 0.002826
+[2015.04.17-05.18.33:411][996]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 1.145
+[2015.04.17-05.18.38:297][275]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.38:308][275]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.38:319][275]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.38:406][276]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C9A067D80
+[2015.04.17-05.18.38:407][276]Cmd: SELECT NONE
+[2015.04.17-05.18.39:459][337]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.18.51:416][ 45]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.19.20:852][773]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.19.21:413][799]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.19.24:931][  6]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.19.27:130][133]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.19.37:160][686]Cmd: DELETE
+[2015.04.17-05.19.37:160][686]Cmd: ACTOR DELETE
+[2015.04.17-05.19.37:165][686]LogEditorActor: Deleted Actor: Platform_Horizontal_Blueprint_C
+[2015.04.17-05.19.37:194][686]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.17-05.19.41:473][929]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.17-05.19.43:256][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.04.17-05.19.45:061][137]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.04.17-05.19.46:237][187]LogActorFactory: Actor Factory created Shape_Cube
+[2015.04.17-05.19.47:035][232]LogActorFactory: Actor Factory created Shape_Cube
+[2015.04.17-05.19.47:044][232]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.19.47:064][232]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.08:206][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.20.08:620][250]LogSavePackage: Save=394.146637ms
+[2015.04.17-05.20.08:620][250]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st7B05E79A4E862B4605CBC483B88B53F5.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.20.08:647][250]LogFileHelpers: Saving map 'MyMap-1st' took 0.521
+[2015.04.17-05.20.08:659][250]LogSavePackage: Save=5.881515ms
+[2015.04.17-05.20.08:659][250]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Platform_Horizontal_BlueprintC0E22AD6464624DA837AA6912FE9563D.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/Platform_Horizontal_Blueprint.uasset'
+[2015.04.17-05.20.11:902][409]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.17-05.20.21:434][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.20.21:853][825]LogSavePackage: Save=399.770264ms
+[2015.04.17-05.20.21:853][825]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st7131C1B3440DD7576B8527A5E5C0DB62.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.20.21:878][825]LogFileHelpers: Saving map 'MyMap-1st' took 0.526
+[2015.04.17-05.20.25:290][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube)
+[2015.04.17-05.20.25:298][971]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.35:395][420]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.17-05.20.35:395][420]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.17-05.20.43:786][896]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.04.17-05.20.43:805][896]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C99B1EAC0
+[2015.04.17-05.20.43:935][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.20.44:354][896]LogSavePackage: Save=399.112091ms
+[2015.04.17-05.20.44:354][896]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st417299F7413F1A0C0CF77B9FDE1CE49F.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.20.44:380][896]LogFileHelpers: Saving map 'MyMap-1st' took 0.527
+[2015.04.17-05.20.44:394][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlatformHorizontal_Blueprint" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/PlatformHorizontal_Blueprint.uasset" SILENT=true
+[2015.04.17-05.20.44:697][896]LogSavePackage: Save=300.056061ms
+[2015.04.17-05.20.44:697][896]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/PlatformHorizontal_BlueprintD6215EE044A608FFE435CB9E2BBB5C98.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/PlatformHorizontal_Blueprint.uasset'
+[2015.04.17-05.20.47:155][ 34]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.54:914][445]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.54:933][445]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.54:961][445]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.54:977][445]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.59:800][731]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.20.59:824][731]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.25.29:316][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.25.29:786][290]LogSavePackage: Save=401.008759ms
+[2015.04.17-05.25.29:786][290]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1stE4D2110E430F87FBE903DCB8181CDEBA.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.25.29:814][290]LogFileHelpers: Saving map 'MyMap-1st' took 0.582
+[2015.04.17-05.25.29:831][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlatformHorizontal_Blueprint" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/PlatformHorizontal_Blueprint.uasset" SILENT=true
+[2015.04.17-05.25.30:159][290]LogSavePackage: Save=318.762054ms
+[2015.04.17-05.25.30:159][290]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/PlatformHorizontal_Blueprint0B7AB2214745CCD0592921AF895D5095.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/PlatformHorizontal_Blueprint.uasset'
+[2015.04.17-05.25.32:792][441]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.25.32:813][441]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.25.32:826][441]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.26.14:841][389]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.27.19:209][332]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.17-05.31.45:355][842]LogEditorViewport: Clicking on Actor (LMB): PlatformHorizontal_Blueprint_C (PlatformHorizontal_Blueprint)
+[2015.04.17-05.34.50:187][636]LogEditorViewport: Clicking on Actor (LMB): PlatformHorizontal_Blueprint_C (PlatformHorizontal_Blueprint)
+[2015.04.17-05.35.51:025][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.17-05.35.51:569][322]LogSavePackage: Save=489.835754ms
+[2015.04.17-05.35.51:569][322]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st_Auto32D290CCA47EB27991E8D5C80BF60BA5C.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto3.umap'
+[2015.04.17-05.35.51:574][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyMap-1st' took 0.607
+[2015.04.17-05.35.51:574][322]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.607
+[2015.04.17-05.35.51:580][322]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PlatformHorizontal_Blueprint] ([1] browsable assets)...
+[2015.04.17-05.35.51:594][322]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PlatformHorizontal_Blueprint.PlatformHorizontal_Blueprint]
+[2015.04.17-05.35.51:594][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlatformHorizontal_Blueprint]
+[2015.04.17-05.35.51:970][322]LogSavePackage: Save=364.023590ms
+[2015.04.17-05.35.51:970][322]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/PlatformHorizontal_Blueprint_Auto3D2B5618D465B097E5A02A5A9DE84F4D1.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Blueprints/PlatformHorizontal_Blueprint_Auto3.uasset'
+[2015.04.17-05.35.52:029][322]LogFileHelpers: Auto-saving content packages took 0.454
+[2015.04.17-05.36.02:240][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-05.36.02:686][668]LogSavePackage: Save=419.244751ms
+[2015.04.17-05.36.02:686][668]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/MyMap-1st5E9EAB594A77ACDD23AEF79F6A37EF3A.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.17-05.36.02:714][668]LogFileHelpers: Saving map 'MyMap-1st' took 0.556
+[2015.04.17-05.36.02:717][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlatformHorizontal_Blueprint" FILE="../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/PlatformHorizontal_Blueprint.uasset" SILENT=true
+[2015.04.17-05.36.02:729][668]LogSavePackage: Save=8.121990ms
+[2015.04.17-05.36.02:729][668]LogSavePackage: Moving '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Saved/PlatformHorizontal_Blueprint8AF941C646E778C1BF935A9391D9BA6F.tmp' to '../../../../../KMU/Unreal/UnrealMidTerm/TestMyProject/Content/Blueprints/PlatformHorizontal_Blueprint.uasset'
+[2015.04.17-05.36.04:166][731]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-05.36.04:169][731]LogPlayLevel: [PIE] Compiling Platform_Horizontal_Blueprint before PIE...
+[2015.04.17-05.36.04:211][731]LogPlayLevel: [PIE] Compiling PlatformHorizontal_Blueprint before PIE...
+[2015.04.17-05.36.04:258][731]LogPlayLevel: [PIE] Compiling MyMap-1st before PIE...
+[2015.04.17-05.36.04:309][731]LogPlayLevel: PIE:  Blueprint regeneration took 143 ms (3 blueprints)
+[2015.04.17-05.36.04:309][731]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 11:36:04 PM)
+[2015.04.17-05.36.04:335][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025962s)
+[2015.04.17-05.36.04:336][731]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2015.04.17-05.36.04:336][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.027044s)
+[2015.04.17-05.36.04:367][731]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-05.36.04:369][731]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-05.36.04:372][731]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 60) at 2015.04.17-14.36.04
+[2015.04.17-05.36.04:372][731]LogWorld: Bringing up level for play took: 0.003104
+[2015.04.17-05.36.04:373][731]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.108
+[2015.04.17-05.36.30:340][223]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000CA5FADE40
+[2015.04.17-05.37.18:613][954]LogInit: Transaction tracking system initialized
+[2015.04.17-05.37.18:613][954]EditorErrors: New page: Matinee Initialization
+[2015.04.17-05.39.01:505][188]LogEditorViewport: Clicking on Actor (LMB): PlatformHorizontal_Blueprint_C (PlatformHorizontal_Blueprint)
+[2015.04.17-05.39.10:630][606]Cmd: TRANSACTION UNDO
+[2015.04.17-05.39.10:630][606]LogEditorTransaction: Undo Move End Marker
+[2015.04.17-05.39.58:288][ 30]LogEditorViewport: Clicking on Actor (LMB): PlatformHorizontal_Blueprint_C (PlatformHorizontal_Blueprint)
+[2015.04.17-05.41.01:097][185]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-05.41.01:099][185]LogPlayLevel: [PIE] Compiling MyMap-1st before PIE...
+[2015.04.17-05.41.01:141][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.04.17-05.41.01:158][185]LogExit: Transaction tracking system shut down
+[2015.04.17-05.41.01:160][185]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2015.04.17-05.41.01:160][185]PIE: New page: PIE session: MyMap-1st (Apr 17, 2015, 11:41:01 PM)
+[2015.04.17-05.41.01:185][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024392s)
+[2015.04.17-05.41.01:186][185]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2015.04.17-05.41.01:186][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.025982s)
+[2015.04.17-05.41.01:219][185]LogWorld: Game class is 'MyGame_C'
+[2015.04.17-05.41.01:221][185]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.17-05.41.01:229][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 60) at 2015.04.17-14.41.01
+[2015.04.17-05.41.01:231][185]LogWorld: Bringing up level for play took: 0.009267
+[2015.04.17-05.41.01:233][185]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st 0.968
+[2015.04.17-05.41.46:258][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000C8AAE9800
+[2015.04.17-05.41.47:395][808]LogEditorViewport: Clicking on Actor (LMB): JumpPad_C (JumpPad2)
+[2015.04.17-05.41.50:047][911]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 124]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1cf4776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1b72e98) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9deb9744) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9decd2d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9dee2cc2) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffc96eb31e9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d52212) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd7b27) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce2667) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5de86) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd6541) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce182a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cdee16) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d72c3f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5e0cf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb68b5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb2668d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebca859) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebbbb0b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5e85c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c4a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c46cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c60076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff79e8fcbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff79e8f089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff79e8f090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff79e8fe3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff79e8ff319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcd0c016ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+
+[2015.04.17-05.41.53:489][911]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 124]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1cf4776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1b72e98) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9deb9744) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9decd2d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9dee2cc2) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffc96eb31e9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d52212) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd7b27) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce2667) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5de86) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd6541) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce182a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cdee16) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d72c3f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5e0cf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb68b5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb2668d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebca859) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebbbb0b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5e85c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c4a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c46cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872297) + 0 bytes [UnknownFile:0]
+wer.dll!UnknownFunction (0x00007ffcc2ea7b1e) + 0 bytes [UnknownFile:0]
+wer.dll!UnknownFunction (0x00007ffcc2e90654) + 0 bytes [UnknownFile:0]
+wer.dll!UnknownFunction (0x00007ffcc2e9062b) + 0 bytes [UnknownFile:0]
+wer.dll!UnknownFunction (0x00007ffcc2e904ef) + 0 bytes [UnknownFile:0]
+wer.dll!UnknownFunction (0x00007ffcc2e816e5) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c62630) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1d2dcf8) + 0 bytes [UnknownFile:0]
+MSVCR120.dll!UnknownFunction (0x00007ffca70ff2cb) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd303431d) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff3057) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff2309) + 0 bytes [UnknownFile:0]
+KERNELBASE.dll!UnknownFunction (0x00007ffcd03f606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5c05a) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1b7306c) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9deb9744) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9decd2d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9dee2cc2) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffc96eb31e9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d52212) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd7b27) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce2667) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5de86) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd6541) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce182a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cdee16) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d72c3f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5e0cf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb68b5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb2668d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebca859) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebbbb0b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5e85c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c4a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c46cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c60076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff79e8fcbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff79e8f089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff79e8f090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff79e8fe3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff79e8ff319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcd0c016ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+
+[2015.04.17-05.41.54:978][964]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 124]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1cf4776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1b72e98) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9deb9744) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9decd2d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9dee2cc2) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffc96eb31e9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d52212) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd7b27) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce2667) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5de86) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd6541) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce182a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cdee16) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d72c3f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5e0cf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb68b5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb2668d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebca859) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebbbb0b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5e85c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c4a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c46cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c60076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff79e8fcbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff79e8f089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff79e8f090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff79e8fe3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff79e8ff319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcd0c016ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+
+[2015.04.17-05.42.04:684][450]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 124]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1cf4776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1b72e98) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9deb9744) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9decd2d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9dee2cc2) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffc96eb31e9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d52212) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd7b27) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce2667) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5de86) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd6541) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce182a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cdee16) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d72c3f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5e0cf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb68b5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb2668d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebca859) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebbbb0b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5e85c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c4a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c46cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c60076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff79e8fcbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff79e8f089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff79e8f090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff79e8fe3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff79e8ff319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcd0c016ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+
+[2015.04.17-05.42.06:671][548]LogEditorViewport: Clicking on Actor (LMB): JumpPad_C (JumpPad2)
+[2015.04.17-05.42.16:972][ 66]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToolkitHost.IsValid() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Editor\UnrealEd\Private\Toolkits\BaseToolkit.cpp] [Line: 124]
+
+Stack: 
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1cf4776) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1b72e98) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9deb9744) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9decd2d5) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffc9dee2cc2) + 0 bytes [UnknownFile:0]
+UE4Editor-AssetTools.dll!UnknownFunction (0x00007ffc96eb31e9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d52212) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd7b27) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce2667) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5de86) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cd6541) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95ce182a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95cdee16) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d72c3f) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffc95d5e0cf) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb68b5e) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9eb2668d) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebca859) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffc9ebbbb0b) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5e85c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c4a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c5fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c46cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffcd0872297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffca1c60076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff79e8fcbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff79e8f089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff79e8f090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff79e8fe3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff79e8ff319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffcd0c016ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffcd2ff4409) + 0 bytes [UnknownFile:0]
+
