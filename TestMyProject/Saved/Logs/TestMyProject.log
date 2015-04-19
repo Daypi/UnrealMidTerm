@@ -1,4 +1,4 @@
-﻿Log file open, 04/18/15 09:58:22
+﻿Log file open, 04/19/15 11:08:36
 LogInit:Display: Running engine for game: TestMyProject
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -9,272 +9,1262 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
 LogInit: Base directory: E:/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.04.18-07.58.22:769][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.04.18-07.58.22:820][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.04.18-07.58.22:856][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.04.18-07.58.22:865][  0]LogInit: Object subsystem initialized
-[2015.04.18-07.58.22:867][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.04.18-07.58.22:867][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.18-07.58.22:867][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.04.18-07.58.22:867][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.04.18-07.58.22:867][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.04.18-07.58.22:868][  0]LogInit: Selected Device Profile: [Windows]
-[2015.04.18-07.58.22:868][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.04.18-07.58.22:872][  0]LogInit: Computer: PC-GAMER
-[2015.04.18-07.58.22:872][  0]LogInit: User: licki000
-[2015.04.18-07.58.22:872][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.04.18-07.58.22:872][  0]LogInit: High frequency timer resolution =2.241015 MHz
-[2015.04.18-07.58.22:872][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
-[2015.04.18-07.58.22:873][  0]LogMemory: Platform Memory Stats for Windows
-[2015.04.18-07.58.22:873][  0]LogMemory: Process Physical Memory: 48.21 MB used, 48.21 MB peak
-[2015.04.18-07.58.22:873][  0]LogMemory: Process Virtual Memory: 24.17 MB used, 24.17 MB peak
-[2015.04.18-07.58.22:873][  0]LogMemory: Physical Memory: 4349.13 MB used, 16343.91 MB total
-[2015.04.18-07.58.22:873][  0]LogMemory: Virtual Memory: 271.52 MB used, 134217728.00 MB total
-[2015.04.18-07.58.22:903][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670M (Feature Level 11_0)
-[2015.04.18-07.58.22:903][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 8171MB of shared system memory, 1 output[s]
-[2015.04.18-07.58.22:904][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.04.18-07.58.22:904][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.04.18-07.58.22:904][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.04.18-07.58.22:908][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.04.18-07.58.22:916][  0]LogD3D11RHI: Async texture creation enabled
-[2015.04.18-07.58.23:070][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.04.18-07.58.23:248][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.04.18-07.58.33:985][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.18-07.58.34:888][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.18-07.58.35:051][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.04.18-07.58.35:469][  0]LogDerivedDataCache: Loaded boot cache 0.42s 39MB C:/Users/licki_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.04.18-07.58.35:469][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/licki_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.04.18-07.58.35:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.04.18-07.58.35:469][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.04.18-07.58.35:541][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.04.18-07.58.35:554][  0]LogDerivedDataCache: Using Local data cache path C:/Users/licki_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.04.18-07.58.37:585][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.04.18-07.58.38:830][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.04.18-07.58.38:830][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.04.18-07.58.42:179][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.04.18-07.58.42:601][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.04.18-07.59.00:720][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.04.18-07.59.01:664][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Binaries/Win64. Error: 0
-[2015.04.18-07.59.02:616][  0]SourceControl: Info Source control is disabled
-[2015.04.18-07.59.02:616][  0]SourceControl: Info Source control is disabled
-[2015.04.18-07.59.02:621][  0]SourceControl: Info Source control is disabled
-[2015.04.18-07.59.03:408][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2015.04.18-07.59.03:408][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
-[2015.04.18-07.59.03:921][  0]LogEngine: Initializing Engine...
-[2015.04.18-07.59.04:582][  0]LogInit: XAudio2 using 'Haut-parleurs (3- Corsair Vengeance 1500)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.04.18-07.59.04:614][  0]LogInit: FAudioDevice initialized.
-[2015.04.18-07.59.05:093][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.04.18-07.59.05:273][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/licki_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.04.18-07.59.05:276][  0]LogInit: Texture streaming: Enabled
-[2015.04.18-07.59.05:323][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.04.18-07.59.05:323][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.04.18-07.59.05:324][  0]LogAnalytics: SetUserId 0fffbc1ec890e20ef4d3f0fa615dacac
-[2015.04.18-07.59.05:324][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.04.18-07.59.05:456][  0]LogInit: Transaction tracking system initialized
-[2015.04.18-07.59.05:771][  0]BlueprintLog: New page: Editor Load
-[2015.04.18-07.59.05:910][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
-[2015.04.18-07.59.05:910][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.04.18-07.59.09:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.18-07.59.10:113][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.04.18-07.59.11:560][  0]LogConsoleResponse:Display: 
-[2015.04.18-07.59.12:259][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.04.18-07.59.13:856][  0]SourceControl: Info Source control is disabled
-[2015.04.18-07.59.13:911][  0]Cmd: MAP LOAD FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.04.18-07.59.13:920][  0]LightingResults: New page: Lighting Build
-[2015.04.18-07.59.14:074][  0]MapCheck: New page: Map Check
-[2015.04.18-07.59.14:074][  0]LightingResults: New page: Lighting Build
-[2015.04.18-07.59.14:314][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D9DC09D940
-[2015.04.18-07.59.17:931][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.04.18-07.59.17:951][  0]LogAIModule: Creating AISystem for world Example_Map
-[2015.04.18-07.59.18:003][  0]Cmd: MAP CHECKDEP
-[2015.04.18-07.59.18:014][  0]MapCheck: New page: Example_Map - Apr 18, 2015, 11:59:18 AM
-[2015.04.18-07.59.18:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 115.285ms to complete.
-[2015.04.18-07.59.18:119][  0]LogFileHelpers: Loading map 'Example_Map' took 4.233
-[2015.04.18-07.59.19:432][  0]LogCollectionManager: Loaded 0 collections in 0.000764 seconds
-[2015.04.18-07.59.19:708][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.04.18-07.59.19:999][  0]LogLoad: Full Startup: 59.53 seconds (BP compile: 0.44 seconds)
-[2015.04.18-07.59.20:443][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.04.18-07.59.20:950][  0]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve LevelEditor.TutorialLaunchButton
-[2015.04.18-07.59.20:950][  0]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
-[2015.04.18-07.59.21:021][  0]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve 
-[2015.04.18-07.59.21:022][  0]LogUObjectGlobals:Warning: LoadPackage can't find package .
-[2015.04.18-07.59.21:201][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x584.
-[2015.04.18-07.59.22:198][  2]LogAssetRegistry: Asset discovery search completed in 16.3008 seconds
-[2015.04.18-08.05.36:719][232]Cmd: QUIT_EDITOR
-[2015.04.18-08.05.37:129][232]LogExit: Preparing to exit.
-[2015.04.18-08.05.38:071][232]LogExit: Editor shut down
-[2015.04.18-08.05.38:072][232]LogExit: Transaction tracking system shut down
-[2015.04.18-08.05.38:073][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D9D2532660
-[2015.04.18-08.05.38:105][232]LogExit: Object subsystem successfully closed.
-[2015.04.18-08.05.38:157][232]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.04.18-08.05.38:157][232]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
-[2015.04.18-08.05.38:157][232]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
-[2015.04.18-08.05.38:157][232]LogModuleManager: Shutting down and abandoning module EditorWidgets (169)
-[2015.04.18-08.05.38:157][232]LogModuleManager: Shutting down and abandoning module CollectionManager (168)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module SceneOutliner (167)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.04.18-08.05.38:158][232]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.04.18-08.05.38:159][232]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.04.18-08.05.38:180][232]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.04.18-08.05.38:181][232]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.04.18-08.05.38:318][232]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
-[2015.04.18-08.05.38:320][232]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
-[2015.04.18-08.05.38:421][232]LogModuleManager: Shutting down and abandoning module Paper2D (75)
-[2015.04.18-08.05.38:421][232]LogModuleManager: Shutting down and abandoning module UE4Game (74)
-[2015.04.18-08.05.38:421][232]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.04.18-08.05.38:423][232]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.04.18-08.05.38:423][232]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.04.18-08.05.38:423][232]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.04.18-08.05.38:424][232]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.04.18-08.05.38:427][232]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.04.18-08.05.38:503][232]LogDerivedDataCache: Shutdown
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.04.18-08.05.38:503][232]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.04.18-08.05.38:504][232]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.04.18-08.05.38:504][232]LogExit: Exiting.
-[2015.04.18-08.05.38:509][232]Log file closed, 04/18/15 10:05:38
+[2015.04.19-09.08.36:610][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.19-09.08.36:661][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.19-09.08.36:676][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.19-09.08.36:685][  0]LogInit: Object subsystem initialized
+[2015.04.19-09.08.36:687][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.19-09.08.36:687][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.19-09.08.36:687][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.19-09.08.36:687][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.19-09.08.36:687][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.19-09.08.36:688][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.19-09.08.36:688][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.19-09.08.36:692][  0]LogInit: Computer: PC-GAMER
+[2015.04.19-09.08.36:692][  0]LogInit: User: licki000
+[2015.04.19-09.08.36:692][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.19-09.08.36:692][  0]LogInit: High frequency timer resolution =2.241015 MHz
+[2015.04.19-09.08.36:692][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.04.19-09.08.36:692][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.19-09.08.36:692][  0]LogMemory: Process Physical Memory: 48.25 MB used, 48.25 MB peak
+[2015.04.19-09.08.36:692][  0]LogMemory: Process Virtual Memory: 24.20 MB used, 24.20 MB peak
+[2015.04.19-09.08.36:692][  0]LogMemory: Physical Memory: 4050.12 MB used, 16343.91 MB total
+[2015.04.19-09.08.36:692][  0]LogMemory: Virtual Memory: 271.52 MB used, 134217728.00 MB total
+[2015.04.19-09.08.36:722][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670M (Feature Level 11_0)
+[2015.04.19-09.08.36:722][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 8171MB of shared system memory, 1 output[s]
+[2015.04.19-09.08.36:723][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.19-09.08.36:723][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.19-09.08.36:723][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.19-09.08.36:727][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.19-09.08.36:734][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.19-09.08.36:793][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.19-09.08.36:974][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.19-09.08.45:988][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-09.08.46:445][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-09.08.46:493][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.19-09.08.46:534][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/licki_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.04.19-09.08.46:534][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/licki_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.04.19-09.08.46:534][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.19-09.08.46:534][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.19-09.08.46:606][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.04.19-09.08.46:619][  0]LogDerivedDataCache: Using Local data cache path C:/Users/licki_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.19-09.08.46:752][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.04.19-09.08.46:897][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.19-09.08.46:897][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.19-09.08.47:279][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.19-09.08.47:330][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.19-09.08.48:052][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.19-09.08.48:201][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Binaries/Win64. Error: 0
+[2015.04.19-09.08.48:335][  0]SourceControl: Info Source control is disabled
+[2015.04.19-09.08.48:335][  0]SourceControl: Info Source control is disabled
+[2015.04.19-09.08.48:341][  0]SourceControl: Info Source control is disabled
+[2015.04.19-09.08.48:442][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.04.19-09.08.48:442][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.04.19-09.08.48:494][  0]LogEngine: Initializing Engine...
+[2015.04.19-09.08.48:649][  0]LogInit: XAudio2 using 'Haut-parleurs (Corsair Vengeance 1500)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.19-09.08.48:658][  0]LogInit: FAudioDevice initialized.
+[2015.04.19-09.08.48:674][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.19-09.08.48:694][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/licki_000/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.04.19-09.08.48:697][  0]LogInit: Texture streaming: Enabled
+[2015.04.19-09.08.48:719][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.19-09.08.48:719][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.04.19-09.08.48:720][  0]LogAnalytics: SetUserId 0fffbc1ec890e20ef4d3f0fa615dacac
+[2015.04.19-09.08.48:720][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.19-09.08.48:735][  0]LogInit: Transaction tracking system initialized
+[2015.04.19-09.08.48:813][  0]BlueprintLog: New page: Editor Load
+[2015.04.19-09.08.48:857][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.04.19-09.08.48:857][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.19-09.08.49:378][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-09.08.49:782][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-09.08.49:941][  0]LogConsoleResponse:Display: 
+[2015.04.19-09.08.49:988][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.19-09.08.50:167][  0]SourceControl: Info Source control is disabled
+[2015.04.19-09.08.50:168][  0]Cmd: MAP LOAD FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.04.19-09.08.50:168][  0]LightingResults: New page: Lighting Build
+[2015.04.19-09.08.50:176][  0]MapCheck: New page: Map Check
+[2015.04.19-09.08.50:176][  0]LightingResults: New page: Lighting Build
+[2015.04.19-09.08.50:185][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E67B027E20
+[2015.04.19-09.08.50:576][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.19-09.08.50:576][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.04.19-09.08.50:577][  0]Cmd: MAP CHECKDEP
+[2015.04.19-09.08.50:577][  0]MapCheck: New page: Example_Map - Apr 19, 2015, 1:08:50 PM
+[2015.04.19-09.08.50:659][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.498ms to complete.
+[2015.04.19-09.08.50:659][  0]LogFileHelpers: Loading map 'Example_Map' took 0.491
+[2015.04.19-09.08.50:815][  0]LogCollectionManager: Loaded 0 collections in 0.000689 seconds
+[2015.04.19-09.08.50:846][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.19-09.08.50:852][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.19-09.08.50:878][  0]LogLoad: Full Startup: 16.13 seconds (BP compile: 0.06 seconds)
+[2015.04.19-09.08.51:220][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.04.19-09.08.51:368][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x584.
+[2015.04.19-09.08.55:218][ 12]LogAssetRegistry: Asset discovery search completed in 6.3717 seconds
+[2015.04.19-09.09.05:031][105]LogTexture:Display: Building textures: 4247847023_245feecba8_b (AutoDXT)
+[2015.04.19-09.09.05:894][105]LogTexture:Display: Building textures: GrassColor (AutoDXT)
+[2015.04.19-09.09.06:115][105]LogTexture:Display: Building textures: RockCliff (AutoDXT)
+[2015.04.19-09.09.06:232][105]LogTexture:Display: Building textures: Sand (BGRA8)
+[2015.04.19-09.09.06:249][105]LogMaterial: Missing cached shader map for material World_Height, compiling.
+[2015.04.19-09.09.06:440][105]Cmd: MAP LOAD FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.04.19-09.09.06:441][105]LightingResults: New page: Lighting Build
+[2015.04.19-09.09.06:479][105]LoadErrors: New page: Loading map: MyMap-1st.umap
+[2015.04.19-09.09.06:480][105]MapCheck: New page: Map Check
+[2015.04.19-09.09.06:480][105]LightingResults: New page: Lighting Build
+[2015.04.19-09.09.06:495][105]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6753A7E20
+[2015.04.19-09.09.06:507][105]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.19-09.09.06:508][105]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.19-09.09.06:529][105]Cmd: MAP CHECKDEP
+[2015.04.19-09.09.06:529][105]MapCheck: New page: MyMap-1st - Apr 19, 2015, 1:09:06 PM
+[2015.04.19-09.09.06:634][105]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 104.678ms to complete.
+[2015.04.19-09.09.06:635][105]LogFileHelpers: Loading map 'MyMap-1st' took 0.197
+[2015.04.19-09.09.06:683][106]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.19-09.09.06:684][106]Cmd: UpdateLandscapeEditorData
+[2015.04.19-09.10.05:739][808]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.04.19-09.10.15:733][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.04.19-09.10.16:286][151]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.19-09.10.18:005][185]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Texture'
+[2015.04.19-09.10.21:018][362]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Texture/NewFolder'
+[2015.04.19-09.10.23:768][447]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Texture/NewFolder'
+[2015.04.19-09.10.29:380][934]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Texture'
+[2015.04.19-09.10.31:208][  4]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Texture/NewFolder'
+[2015.04.19-09.10.37:321][321]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.19-09.10.48:898][689]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.11.15:766][  7]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/tree1.obj)
+[2015.04.19-09.11.29:200][  7]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/tree1.obj
+[2015.04.19-09.11.29:244][  7]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.11.29:256][  7]LogLinker:Warning: Can't find file '/Game/Models/polySurface1Mat'
+[2015.04.19-09.11.29:256][  7]LogLinker:Warning: Can't find file '/Game/Models/polySurface1Mat'
+[2015.04.19-09.11.29:257][  7]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1Mat.polySurface1Mat'
+[2015.04.19-09.11.29:304][  7]LogMaterial: Missing cached shader map for material polySurface1Mat, compiling.
+[2015.04.19-09.11.29:317][  7]LogFbx:Warning: Triangulating static mesh polySurface1
+[2015.04.19-09.11.29:476][  7]LogLinker:Warning: Can't find file '/Game/Models/polySurface1602Mat'
+[2015.04.19-09.11.29:477][  7]LogLinker:Warning: Can't find file '/Game/Models/polySurface1602Mat'
+[2015.04.19-09.11.29:477][  7]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1602Mat.polySurface1602Mat'
+[2015.04.19-09.11.29:482][  7]LogMaterial: Missing cached shader map for material polySurface1602Mat, compiling.
+[2015.04.19-09.11.29:493][  7]LogFbx:Warning: Triangulating static mesh polySurface1602
+[2015.04.19-09.11.29:510][  7]LogLinker:Warning: Can't find file '/Game/Models/polySurface1647Mat'
+[2015.04.19-09.11.29:510][  7]LogLinker:Warning: Can't find file '/Game/Models/polySurface1647Mat'
+[2015.04.19-09.11.29:511][  7]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1647Mat.polySurface1647Mat'
+[2015.04.19-09.11.29:516][  7]LogMaterial: Missing cached shader map for material polySurface1647Mat, compiling.
+[2015.04.19-09.11.29:528][  7]LogFbx:Warning: Triangulating static mesh polySurface1647
+[2015.04.19-09.11.29:543][  7]LogFbx: == Initial material list:
+[2015.04.19-09.11.29:543][  7]LogFbx: 0: polySurface1Mat
+[2015.04.19-09.11.29:543][  7]LogFbx: 1: polySurface1602Mat
+[2015.04.19-09.11.29:543][  7]LogFbx: 2: polySurface1647Mat
+[2015.04.19-09.11.29:543][  7]LogFbx: == After sorting:
+[2015.04.19-09.11.29:543][  7]LogFbx: 0: polySurface1Mat
+[2015.04.19-09.11.29:543][  7]LogFbx: 1: polySurface1602Mat
+[2015.04.19-09.11.29:543][  7]LogFbx: 2: polySurface1647Mat
+[2015.04.19-09.11.29:543][  7]LogFbx: == Mapping table:
+[2015.04.19-09.11.29:543][  7]LogFbx:   sort 0 -> 0
+[2015.04.19-09.11.29:543][  7]LogFbx:   sort 1 -> 1
+[2015.04.19-09.11.29:543][  7]LogFbx:   sort 2 -> 2
+[2015.04.19-09.11.29:557][  7]LogStaticMesh: Building static mesh tree1...
+[2015.04.19-09.11.29:595][  7]LogLayoutUV:Display: FindCharts: 1 ms
+[2015.04.19-09.11.29:601][  7]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.04.19-09.11.29:601][  7]LogLayoutUV:Display:   Rasterize: 6603
+[2015.04.19-09.11.29:601][  7]LogLayoutUV:Display:   Find: 5321
+[2015.04.19-09.11.29:608][  7]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.04.19-09.11.29:608][  7]LogLayoutUV:Display:   Rasterize: 4944
+[2015.04.19-09.11.29:608][  7]LogLayoutUV:Display:   Find: 5059
+[2015.04.19-09.11.29:620][  7]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.04.19-09.11.29:620][  7]LogLayoutUV:Display:   Rasterize: 4814
+[2015.04.19-09.11.29:620][  7]LogLayoutUV:Display:   Find: 4140
+[2015.04.19-09.11.29:624][  7]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.04.19-09.11.29:624][  7]LogLayoutUV:Display:   Rasterize: 4601
+[2015.04.19-09.11.29:624][  7]LogLayoutUV:Display:   Find: 5232
+[2015.04.19-09.11.29:630][  7]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.04.19-09.11.29:630][  7]LogLayoutUV:Display:   Rasterize: 6193
+[2015.04.19-09.11.29:630][  7]LogLayoutUV:Display:   Find: 7221
+[2015.04.19-09.11.29:640][  7]LogStaticMesh: Built static mesh [83.695557ms] /Game/Models/tree1.tree1
+[2015.04.19-09.11.29:715][  7]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.11.29:715][  7]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.11.34:470][169]LogActorFactory: Actor Factory created tree1
+[2015.04.19-09.11.37:371][326]LogActorFactory: Actor Factory created tree1
+[2015.04.19-09.11.37:853][351]LogActorFactory: Actor Factory created tree1
+[2015.04.19-09.11.38:012][351]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.11.38:114][351]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.11.39:527][418]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.04.19-09.11.43:145][566]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.11.47:692][714]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.19-09.11.47:692][714]Aligned camera to fit all selected actors.
+[2015.04.19-09.12.39:163][941]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.19-09.12.39:171][941]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.04.19-09.12.46:349][167]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/tree2.obj)
+[2015.04.19-09.12.48:110][167]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/tree2.obj
+[2015.04.19-09.12.48:136][167]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.12.48:140][167]LogLinker:Warning: Can't find file '/Game/Models/pCube3Mat'
+[2015.04.19-09.12.48:140][167]LogLinker:Warning: Can't find file '/Game/Models/pCube3Mat'
+[2015.04.19-09.12.48:140][167]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/pCube3Mat.pCube3Mat'
+[2015.04.19-09.12.48:146][167]LogMaterial: Missing cached shader map for material pCube3Mat, compiling.
+[2015.04.19-09.12.48:154][167]LogFbx:Warning: Triangulating static mesh pCube3
+[2015.04.19-09.12.48:292][167]LogLinker:Warning: Can't find file '/Game/Models/polySurface1646Mat'
+[2015.04.19-09.12.48:292][167]LogLinker:Warning: Can't find file '/Game/Models/polySurface1646Mat'
+[2015.04.19-09.12.48:292][167]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1646Mat.polySurface1646Mat'
+[2015.04.19-09.12.48:297][167]LogMaterial: Missing cached shader map for material polySurface1646Mat, compiling.
+[2015.04.19-09.12.48:306][167]LogFbx:Warning: Triangulating static mesh polySurface1646
+[2015.04.19-09.12.48:324][167]LogLinker:Warning: Can't find file '/Game/Models/polySurface1650Mat'
+[2015.04.19-09.12.48:324][167]LogLinker:Warning: Can't find file '/Game/Models/polySurface1650Mat'
+[2015.04.19-09.12.48:324][167]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1650Mat.polySurface1650Mat'
+[2015.04.19-09.12.48:331][167]LogMaterial: Missing cached shader map for material polySurface1650Mat, compiling.
+[2015.04.19-09.12.48:344][167]LogFbx:Warning: Triangulating static mesh polySurface1650
+[2015.04.19-09.12.48:362][167]LogLinker:Warning: Can't find file '/Game/Models/polySurface1651Mat'
+[2015.04.19-09.12.48:362][167]LogLinker:Warning: Can't find file '/Game/Models/polySurface1651Mat'
+[2015.04.19-09.12.48:362][167]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1651Mat.polySurface1651Mat'
+[2015.04.19-09.12.48:378][167]LogMaterial: Missing cached shader map for material polySurface1651Mat, compiling.
+[2015.04.19-09.12.48:388][167]LogFbx:Warning: Triangulating static mesh polySurface1651
+[2015.04.19-09.12.48:404][167]LogFbx: == Initial material list:
+[2015.04.19-09.12.48:404][167]LogFbx: 0: pCube3Mat
+[2015.04.19-09.12.48:404][167]LogFbx: 1: polySurface1646Mat
+[2015.04.19-09.12.48:404][167]LogFbx: 2: polySurface1650Mat
+[2015.04.19-09.12.48:404][167]LogFbx: 3: polySurface1651Mat
+[2015.04.19-09.12.48:404][167]LogFbx: == After sorting:
+[2015.04.19-09.12.48:404][167]LogFbx: 0: pCube3Mat
+[2015.04.19-09.12.48:404][167]LogFbx: 1: polySurface1646Mat
+[2015.04.19-09.12.48:404][167]LogFbx: 2: polySurface1650Mat
+[2015.04.19-09.12.48:404][167]LogFbx: 3: polySurface1651Mat
+[2015.04.19-09.12.48:404][167]LogFbx: == Mapping table:
+[2015.04.19-09.12.48:404][167]LogFbx:   sort 0 -> 0
+[2015.04.19-09.12.48:404][167]LogFbx:   sort 1 -> 1
+[2015.04.19-09.12.48:404][167]LogFbx:   sort 2 -> 2
+[2015.04.19-09.12.48:404][167]LogFbx:   sort 3 -> 3
+[2015.04.19-09.12.48:414][167]LogStaticMesh: Building static mesh tree2...
+[2015.04.19-09.12.48:423][167]LogLayoutUV:Display: FindCharts: 1 ms
+[2015.04.19-09.12.48:428][167]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.04.19-09.12.48:428][167]LogLayoutUV:Display:   Rasterize: 5692
+[2015.04.19-09.12.48:428][167]LogLayoutUV:Display:   Find: 7134
+[2015.04.19-09.12.48:442][167]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.04.19-09.12.48:442][167]LogLayoutUV:Display:   Rasterize: 4179
+[2015.04.19-09.12.48:442][167]LogLayoutUV:Display:   Find: 4500
+[2015.04.19-09.12.48:447][167]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.04.19-09.12.48:447][167]LogLayoutUV:Display:   Rasterize: 4920
+[2015.04.19-09.12.48:447][167]LogLayoutUV:Display:   Find: 6383
+[2015.04.19-09.12.48:459][167]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.04.19-09.12.48:459][167]LogLayoutUV:Display:   Rasterize: 4837
+[2015.04.19-09.12.48:459][167]LogLayoutUV:Display:   Find: 6117
+[2015.04.19-09.12.48:472][167]LogStaticMesh: Built static mesh [66.307457ms] /Game/Models/tree2.tree2
+[2015.04.19-09.12.48:487][167]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.19-09.12.48:897][167]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.12.48:898][167]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.12.55:220][371]LogActorFactory: Actor Factory created tree2
+[2015.04.19-09.12.55:734][387]LogActorFactory: Actor Factory created tree2
+[2015.04.19-09.12.55:745][387]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.12.55:771][387]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.13.35:453][325]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/tree2_LOD.obj)
+[2015.04.19-09.13.36:733][325]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/tree2_LOD.obj
+[2015.04.19-09.13.36:742][325]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.13.36:746][325]LogLinker:Warning: Can't find file '/Game/Models/pCube5Mat'
+[2015.04.19-09.13.36:746][325]LogLinker:Warning: Can't find file '/Game/Models/pCube5Mat'
+[2015.04.19-09.13.36:746][325]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/pCube5Mat.pCube5Mat'
+[2015.04.19-09.13.36:752][325]LogMaterial: Missing cached shader map for material pCube5Mat, compiling.
+[2015.04.19-09.13.36:761][325]LogFbx:Warning: Triangulating static mesh pCube5
+[2015.04.19-09.13.36:831][325]LogLinker:Warning: Can't find file '/Game/Models/polySurface1662Mat'
+[2015.04.19-09.13.36:832][325]LogLinker:Warning: Can't find file '/Game/Models/polySurface1662Mat'
+[2015.04.19-09.13.36:832][325]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1662Mat.polySurface1662Mat'
+[2015.04.19-09.13.36:856][325]LogMaterial: Missing cached shader map for material polySurface1662Mat, compiling.
+[2015.04.19-09.13.36:868][325]LogLinker:Warning: Can't find file '/Game/Models/polySurface1663Mat'
+[2015.04.19-09.13.36:868][325]LogLinker:Warning: Can't find file '/Game/Models/polySurface1663Mat'
+[2015.04.19-09.13.36:868][325]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1663Mat.polySurface1663Mat'
+[2015.04.19-09.13.36:876][325]LogMaterial: Missing cached shader map for material polySurface1663Mat, compiling.
+[2015.04.19-09.13.36:890][325]LogLinker:Warning: Can't find file '/Game/Models/polySurface1664Mat'
+[2015.04.19-09.13.36:890][325]LogLinker:Warning: Can't find file '/Game/Models/polySurface1664Mat'
+[2015.04.19-09.13.36:890][325]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1664Mat.polySurface1664Mat'
+[2015.04.19-09.13.36:897][325]LogMaterial: Missing cached shader map for material polySurface1664Mat, compiling.
+[2015.04.19-09.13.36:909][325]LogFbx:Warning: Triangulating static mesh polySurface1664
+[2015.04.19-09.13.36:912][325]LogFbx: == Initial material list:
+[2015.04.19-09.13.36:912][325]LogFbx: 0: pCube5Mat
+[2015.04.19-09.13.36:912][325]LogFbx: 1: polySurface1662Mat
+[2015.04.19-09.13.36:912][325]LogFbx: 2: polySurface1663Mat
+[2015.04.19-09.13.36:912][325]LogFbx: 3: polySurface1664Mat
+[2015.04.19-09.13.36:912][325]LogFbx: == After sorting:
+[2015.04.19-09.13.36:912][325]LogFbx: 0: pCube5Mat
+[2015.04.19-09.13.36:912][325]LogFbx: 1: polySurface1662Mat
+[2015.04.19-09.13.36:912][325]LogFbx: 2: polySurface1663Mat
+[2015.04.19-09.13.36:912][325]LogFbx: 3: polySurface1664Mat
+[2015.04.19-09.13.36:912][325]LogFbx: == Mapping table:
+[2015.04.19-09.13.36:912][325]LogFbx:   sort 0 -> 0
+[2015.04.19-09.13.36:912][325]LogFbx:   sort 1 -> 1
+[2015.04.19-09.13.36:912][325]LogFbx:   sort 2 -> 2
+[2015.04.19-09.13.36:912][325]LogFbx:   sort 3 -> 3
+[2015.04.19-09.13.36:924][325]LogStaticMesh: Building static mesh tree2_LOD...
+[2015.04.19-09.13.36:934][325]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.13.36:938][325]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.04.19-09.13.36:938][325]LogLayoutUV:Display:   Rasterize: 2476
+[2015.04.19-09.13.36:938][325]LogLayoutUV:Display:   Find: 5886
+[2015.04.19-09.13.36:946][325]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.04.19-09.13.36:946][325]LogLayoutUV:Display:   Rasterize: 3179
+[2015.04.19-09.13.36:946][325]LogLayoutUV:Display:   Find: 9065
+[2015.04.19-09.13.36:956][325]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.04.19-09.13.36:956][325]LogLayoutUV:Display:   Rasterize: 2878
+[2015.04.19-09.13.36:956][325]LogLayoutUV:Display:   Find: 9844
+[2015.04.19-09.13.36:962][325]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.04.19-09.13.36:962][325]LogLayoutUV:Display:   Rasterize: 3194
+[2015.04.19-09.13.36:962][325]LogLayoutUV:Display:   Find: 10715
+[2015.04.19-09.13.36:971][325]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.04.19-09.13.36:971][325]LogLayoutUV:Display:   Rasterize: 2592
+[2015.04.19-09.13.36:971][325]LogLayoutUV:Display:   Find: 6430
+[2015.04.19-09.13.36:975][325]LogStaticMesh: Built static mesh [62.121853ms] /Game/Models/tree2_LOD.tree2_LOD
+[2015.04.19-09.13.37:012][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.13.37:013][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.15.33:990][270]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.04.19-09.15.37:555][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (tree2)
+[2015.04.19-09.15.37:569][458]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.15.45:474][795]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.04.19-09.15.45:560][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.19-09.15.45:683][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.19-09.15.45:683][795]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.19-09.15.45:687][795]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.04.19-09.15.45:716][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling.
+[2015.04.19-09.15.47:091][813]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.15.47:091][813]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.15.47:091][813]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.15.54:455][ 25]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.04.19-09.15.54:505][ 25]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling.
+[2015.04.19-09.15.55:256][ 34]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.15.55:256][ 34]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.15.55:256][ 34]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.15.56:255][ 49]LogMaterialEditor: Applying material polySurface1646Mat
+[2015.04.19-09.15.57:772][ 49]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.04.19-09.15.57:846][ 49]LogMaterial: Missing cached shader map for material polySurface1646Mat, compiling.
+[2015.04.19-09.15.57:870][ 49]LogMaterial: Missing cached shader map for material polySurface1646Mat, compiling.
+[2015.04.19-09.15.57:881][ 49]LogMaterial: 0.004314 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.16.00:068][ 91]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.19-09.16.00:068][ 91]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.00:068][ 91]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.19-09.16.07:712][213]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.04.19-09.16.07:733][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.19-09.16.07:766][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.19-09.16.07:766][213]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.19-09.16.07:766][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.19-09.16.07:766][213]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.19-09.16.07:782][213]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.04.19-09.16.07:812][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling.
+[2015.04.19-09.16.08:547][222]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.16.08:547][222]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.08:547][222]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.16.18:104][501]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.04.19-09.16.18:137][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling.
+[2015.04.19-09.16.18:826][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.16.18:826][509]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.18:826][509]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.16.23:997][605]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.04.19-09.16.24:030][605]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling.
+[2015.04.19-09.16.24:742][614]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.16.24:742][614]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.24:742][614]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.16.25:906][629]LogMaterialEditor: Applying material polySurface1646Mat
+[2015.04.19-09.16.27:356][629]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.04.19-09.16.27:513][629]LogMaterial: Missing cached shader map for material polySurface1646Mat, compiling.
+[2015.04.19-09.16.27:535][629]LogMaterial: Missing cached shader map for material polySurface1646Mat, compiling.
+[2015.04.19-09.16.27:551][629]LogMaterial: 0.005529 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.16.29:628][664]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.19-09.16.29:628][664]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.29:628][664]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.19-09.16.33:745][716]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.04.19-09.16.33:757][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.19-09.16.33:792][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.19-09.16.33:792][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.19-09.16.33:793][716]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.04.19-09.16.33:793][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.04.19-09.16.33:795][716]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.04.19-09.16.33:825][716]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling.
+[2015.04.19-09.16.34:554][725]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.16.34:554][725]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.34:554][725]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.16.42:869][935]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.04.19-09.16.42:940][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling.
+[2015.04.19-09.16.43:558][943]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.16.43:559][943]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.43:559][943]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.16.44:084][950]LogMaterialEditor: Applying material pCube3Mat
+[2015.04.19-09.16.45:546][950]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.04.19-09.16.45:638][950]LogMaterial: Missing cached shader map for material pCube3Mat, compiling.
+[2015.04.19-09.16.45:664][950]LogMaterial: Missing cached shader map for material pCube3Mat, compiling.
+[2015.04.19-09.16.45:677][950]LogMaterial: 0.003890 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.16.47:694][984]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.19-09.16.47:694][984]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.47:694][984]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.19-09.16.53:740][ 68]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.04.19-09.16.53:772][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.19-09.16.53:808][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.19-09.16.53:808][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.19-09.16.53:808][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.04.19-09.16.53:808][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.04.19-09.16.53:856][ 68]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.04.19-09.16.53:889][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling.
+[2015.04.19-09.16.54:513][ 76]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.16.54:513][ 76]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.16.54:513][ 76]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.02:504][339]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.04.19-09.17.02:536][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling.
+[2015.04.19-09.17.03:259][347]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.17.03:259][347]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.03:259][347]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.10:506][521]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.04.19-09.17.10:536][521]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling.
+[2015.04.19-09.17.11:246][529]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.17.11:246][529]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.11:246][529]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.13:577][556]LogMaterialEditor: Applying material pCube3Mat
+[2015.04.19-09.17.15:052][556]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.04.19-09.17.15:166][556]LogMaterial: Missing cached shader map for material pCube3Mat, compiling.
+[2015.04.19-09.17.15:187][556]LogMaterial: Missing cached shader map for material pCube3Mat, compiling.
+[2015.04.19-09.17.15:201][556]LogMaterial: 0.004777 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.17.24:074][689]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.04.19-09.17.24:086][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.19-09.17.24:121][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.19-09.17.24:121][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.04.19-09.17.24:121][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.04.19-09.17.24:121][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.04.19-09.17.24:135][689]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.04.19-09.17.24:177][689]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling.
+[2015.04.19-09.17.24:781][698]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.17.24:781][698]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.24:781][698]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.29:186][793]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.04.19-09.17.29:216][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling.
+[2015.04.19-09.17.29:910][801]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.17.29:910][801]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.29:910][801]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.31:399][818]LogMaterialEditor: Applying material polySurface1650Mat
+[2015.04.19-09.17.32:909][818]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.04.19-09.17.32:998][818]LogMaterial: Missing cached shader map for material polySurface1650Mat, compiling.
+[2015.04.19-09.17.33:029][818]LogMaterial: Missing cached shader map for material polySurface1650Mat, compiling.
+[2015.04.19-09.17.33:040][818]LogMaterial: 0.004062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.17.39:710][919]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2015.04.19-09.17.39:722][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.04.19-09.17.39:757][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.04.19-09.17.39:757][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.04.19-09.17.39:757][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.04.19-09.17.39:757][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.04.19-09.17.39:760][919]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2015.04.19-09.17.39:790][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling.
+[2015.04.19-09.17.40:507][928]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.17.40:507][928]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.40:507][928]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.51:212][263]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2015.04.19-09.17.51:241][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling.
+[2015.04.19-09.17.51:978][272]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.17.51:978][272]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.51:978][272]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.17.55:158][313]LogMaterialEditor: Applying material polySurface1651Mat
+[2015.04.19-09.17.56:681][313]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2015.04.19-09.17.56:776][313]LogMaterial: Missing cached shader map for material polySurface1651Mat, compiling.
+[2015.04.19-09.17.56:798][313]LogMaterial: Missing cached shader map for material polySurface1651Mat, compiling.
+[2015.04.19-09.17.56:808][313]LogMaterial: 0.003007 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.17.58:712][346]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.19-09.17.58:712][346]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.17.58:712][346]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.19-09.18.03:354][407]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2015.04.19-09.18.03:381][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.04.19-09.18.03:417][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.04.19-09.18.03:417][407]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2015.04.19-09.18.03:417][407]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.04.19-09.18.03:417][407]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2015.04.19-09.18.03:419][407]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2015.04.19-09.18.03:449][407]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling.
+[2015.04.19-09.18.04:180][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.18.04:180][416]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.18.04:180][416]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.18.11:635][631]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2015.04.19-09.18.11:669][631]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_5, compiling.
+[2015.04.19-09.18.12:427][639]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.18.12:427][639]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.18.12:427][639]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.18.14:834][670]LogMaterialEditor: Applying material polySurface1650Mat
+[2015.04.19-09.18.16:291][670]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2015.04.19-09.18.16:427][670]LogMaterial: Missing cached shader map for material polySurface1650Mat, compiling.
+[2015.04.19-09.18.16:451][670]LogMaterial: Missing cached shader map for material polySurface1650Mat, compiling.
+[2015.04.19-09.18.16:464][670]LogMaterial: 0.004498 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.18.18:320][702]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.19-09.18.18:320][702]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.18.18:320][702]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E60CFFA7A0
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6181B3D80
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6056965C0
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6753D4EA0
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E605E1B420
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E60D201080
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6753D49A0
+[2015.04.19-09.18.32:006][883]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E617E37EC0
+[2015.04.19-09.18.58:795][142]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.19-09.18.58:795][142]Aligned camera to fit all selected actors.
+[2015.04.19-09.19.13:766][385]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.19-09.19.13:766][385]LogPlayLevel: [PIE] Compiling MyMap-1st before PIE...
+[2015.04.19-09.19.13:807][385]LogPlayLevel: PIE:  Blueprint regeneration took 40 ms (1 blueprints)
+[2015.04.19-09.19.13:807][385]PIE: New page: PIE session: MyMap-1st (Apr 19, 2015, 1:19:13 PM)
+[2015.04.19-09.19.13:838][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030037s)
+[2015.04.19-09.19.13:839][385]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2015.04.19-09.19.13:839][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyMap-1st.MyMap-1st to /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st (0.031384s)
+[2015.04.19-09.19.14:082][385]LogWorld: Game class is 'MyGame_C'
+[2015.04.19-09.19.14:084][385]LogAIModule: Creating AISystem for world MyMap-1st
+[2015.04.19-09.19.14:088][385]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyMap-1st.MyMap-1st up for play (max tick rate 0) at 2015.04.19-11.19.14
+[2015.04.19-09.19.14:089][385]LogWorld: Bringing up level for play took: 0.004471
+[2015.04.19-09.19.14:091][385]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyMap-1st -0.313
+[2015.04.19-09.19.24:066][561]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.19.24:158][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6024559E0
+[2015.04.19-09.19.40:359][648]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX)
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.04.19-09.19.40:709][648]LogFbx: ItemName: Video, ItemCount : 2
+[2015.04.19-09.19.44:366][648]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX
+[2015.04.19-09.19.44:468][648]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.19.44:472][648]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.19.44:473][648]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.19.44:473][648]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/Material__29.Material__29'
+[2015.04.19-09.19.44:475][648]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.19.44:475][648]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.19.44:475][648]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/grassDrySilDiffuse.grassDrySilDiffuse'
+[2015.04.19-09.19.44:475][648]LogStreaming:Warning: Failed to read file 'grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.19.44:475][648]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.19.44:475][648]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.19.44:475][648]LogFbxMaterialImport:Warning: Unable to find TEXTure file grassDrySilDiffuse.bmp. Tried:
+ - grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp
+[2015.04.19-09.19.44:479][648]LogMaterial: Missing cached shader map for material Material__29, compiling.
+[2015.04.19-09.19.44:488][648]LogFbx: == Initial material list:
+[2015.04.19-09.19.44:488][648]LogFbx: 0: Material #29
+[2015.04.19-09.19.44:488][648]LogFbx: == After sorting:
+[2015.04.19-09.19.44:488][648]LogFbx: 0: Material #29
+[2015.04.19-09.19.44:488][648]LogFbx: == Mapping table:
+[2015.04.19-09.19.44:488][648]LogFbx:   sort 0 -> 0
+[2015.04.19-09.19.44:492][648]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.19.44:492][648]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.19.44:493][648]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.19.44:493][648]LogLayoutUV:Display:   Rasterize: 368
+[2015.04.19-09.19.44:493][648]LogLayoutUV:Display:   Find: 1111
+[2015.04.19-09.19.44:495][648]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.19.44:495][648]LogLayoutUV:Display:   Rasterize: 425
+[2015.04.19-09.19.44:495][648]LogLayoutUV:Display:   Find: 1530
+[2015.04.19-09.19.44:495][648]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.19.44:495][648]LogLayoutUV:Display:   Rasterize: 422
+[2015.04.19-09.19.44:496][648]LogLayoutUV:Display:   Find: 1528
+[2015.04.19-09.19.44:497][648]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.19.44:497][648]LogLayoutUV:Display:   Rasterize: 452
+[2015.04.19-09.19.44:497][648]LogLayoutUV:Display:   Find: 1632
+[2015.04.19-09.19.44:499][648]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.19.44:499][648]LogLayoutUV:Display:   Rasterize: 462
+[2015.04.19-09.19.44:499][648]LogLayoutUV:Display:   Find: 1676
+[2015.04.19-09.19.44:500][648]LogStaticMesh: Built static mesh [8.167281ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.19.44:506][648]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.19-09.19.44:544][648]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.19.44:544][648]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.19.44:876][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.19-09.19.45:491][649]LogSavePackage: Save=532.762146ms
+[2015.04.19-09.19.45:491][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/MyMap-1st_Auto13CDA8E2A4E0EE36E47B66794BEF7A8D6.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto1.umap'
+[2015.04.19-09.19.45:499][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyMap-1st' took 0.674
+[2015.04.19-09.19.45:499][649]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.674
+[2015.04.19-09.19.45:509][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/polySurface1650Mat] ([1] browsable assets)...
+[2015.04.19-09.19.45:537][649]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/polySurface1650Mat.polySurface1650Mat]
+[2015.04.19-09.19.45:537][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/polySurface1650Mat]
+[2015.04.19-09.19.45:867][649]LogSavePackage: Save=324.992920ms
+[2015.04.19-09.19.45:868][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/polySurface1650Mat_Auto17FEBC7B949D5311A27B9E691B662C686.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/polySurface1650Mat_Auto1.uasset'
+[2015.04.19-09.19.45:879][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/polySurface1646Mat] ([1] browsable assets)...
+[2015.04.19-09.19.45:905][649]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/polySurface1646Mat.polySurface1646Mat]
+[2015.04.19-09.19.45:906][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/polySurface1646Mat]
+[2015.04.19-09.19.46:338][649]LogSavePackage: Save=428.348755ms
+[2015.04.19-09.19.46:338][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/polySurface1646Mat_Auto198C9AC6A4029CD8257807281E41830DF.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/polySurface1646Mat_Auto1.uasset'
+[2015.04.19-09.19.46:351][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/tree2] ([1] browsable assets)...
+[2015.04.19-09.19.46:373][649]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/tree2.tree2]
+[2015.04.19-09.19.46:373][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/tree2]
+[2015.04.19-09.19.46:376][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/tree2" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/tree2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.19-09.19.46:835][649]LogSavePackage: Save=458.132599ms
+[2015.04.19-09.19.46:835][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/tree2_Auto109C37F5840CD89CA0E3DA9854C203108.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/tree2_Auto1.uasset'
+[2015.04.19-09.19.46:883][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/pCube3Mat] ([1] browsable assets)...
+[2015.04.19-09.19.46:903][649]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/pCube3Mat.pCube3Mat]
+[2015.04.19-09.19.46:903][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/pCube3Mat]
+[2015.04.19-09.19.46:906][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/pCube3Mat" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/pCube3Mat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.19-09.19.47:281][649]LogSavePackage: Save=373.457123ms
+[2015.04.19-09.19.47:281][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/pCube3Mat_Auto17655DBFB4D6BFAB26E3D3B9ED336520B.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/pCube3Mat_Auto1.uasset'
+[2015.04.19-09.19.47:292][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/polySurface1651Mat] ([1] browsable assets)...
+[2015.04.19-09.19.47:313][649]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/polySurface1651Mat.polySurface1651Mat]
+[2015.04.19-09.19.47:313][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/polySurface1651Mat]
+[2015.04.19-09.19.47:704][649]LogSavePackage: Save=387.822937ms
+[2015.04.19-09.19.47:704][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/polySurface1651Mat_Auto1A941929045B774CEA36AD98509FAE6AB.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/polySurface1651Mat_Auto1.uasset'
+[2015.04.19-09.19.47:764][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/CartoonGrassFBX] ([1] browsable assets)...
+[2015.04.19-09.19.47:789][649]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/CartoonGrassFBX.CartoonGrassFBX]
+[2015.04.19-09.19.47:789][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/CartoonGrassFBX]
+[2015.04.19-09.19.48:226][649]LogSavePackage: Save=432.271973ms
+[2015.04.19-09.19.48:226][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/CartoonGrassFBX_Auto13C96DE4D40EC9ACAB46776841E795341.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/CartoonGrassFBX_Auto1.uasset'
+[2015.04.19-09.19.48:237][649]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Material__29] ([1] browsable assets)...
+[2015.04.19-09.19.48:263][649]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Material__29.Material__29]
+[2015.04.19-09.19.48:263][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Material__29]
+[2015.04.19-09.19.48:266][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material__29" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/Material__29_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.04.19-09.19.48:783][649]LogSavePackage: Save=515.288391ms
+[2015.04.19-09.19.48:783][649]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Material__29_Auto1DE6CB1054C67834BFA307797BFE03C4B.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/Material__29_Auto1.uasset'
+[2015.04.19-09.19.48:788][649]LogFileHelpers: Auto-saving content packages took 3.288
+[2015.04.19-09.19.56:325][829]LogActorFactory: Actor Factory created CartoonGrassFBX
+[2015.04.19-09.19.57:268][847]LogActorFactory: Actor Factory created CartoonGrassFBX
+[2015.04.19-09.19.57:278][847]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.19.57:299][847]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.20.09:640][ 98]Cmd: DELETE
+[2015.04.19-09.20.09:640][ 98]Cmd: ACTOR DELETE
+[2015.04.19-09.20.09:645][ 98]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.19-09.20.09:756][ 98]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2015.04.19-09.20.16:811][168]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.20.17:390][177]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.04.19-09.20.17:390][177]Aligned camera to fit all selected actors.
+[2015.04.19-09.21.51:212][982]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX)
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.04.19-09.21.51:214][982]LogFbx: ItemName: Video, ItemCount : 2
+[2015.04.19-09.22.50:129][982]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX
+[2015.04.19-09.22.50:136][982]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.22.50:140][982]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.22.50:141][982]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.22.50:141][982]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/Material__29.Material__29'
+[2015.04.19-09.22.50:141][982]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.22.50:142][982]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.22.50:142][982]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/grassDrySilDiffuse.grassDrySilDiffuse'
+[2015.04.19-09.22.50:142][982]LogStreaming:Warning: Failed to read file 'grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.22.50:142][982]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.22.50:142][982]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.22.50:142][982]LogFbxMaterialImport:Warning: Unable to find TEXTure file grassDrySilDiffuse.bmp. Tried:
+ - grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp
+[2015.04.19-09.22.50:172][982]LogMaterial: Missing cached shader map for material Material__29, compiling.
+[2015.04.19-09.22.50:181][982]LogFbx: == Initial material list:
+[2015.04.19-09.22.50:181][982]LogFbx: 0: Material #29
+[2015.04.19-09.22.50:181][982]LogFbx: == After sorting:
+[2015.04.19-09.22.50:181][982]LogFbx: 0: Material #29
+[2015.04.19-09.22.50:181][982]LogFbx: == Mapping table:
+[2015.04.19-09.22.50:181][982]LogFbx:   sort 0 -> 0
+[2015.04.19-09.22.50:185][982]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.22.50:185][982]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.22.50:186][982]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.22.50:186][982]LogLayoutUV:Display:   Rasterize: 487
+[2015.04.19-09.22.50:186][982]LogLayoutUV:Display:   Find: 1105
+[2015.04.19-09.22.50:188][982]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.22.50:188][982]LogLayoutUV:Display:   Rasterize: 558
+[2015.04.19-09.22.50:188][982]LogLayoutUV:Display:   Find: 1815
+[2015.04.19-09.22.50:189][982]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.22.50:189][982]LogLayoutUV:Display:   Rasterize: 451
+[2015.04.19-09.22.50:189][982]LogLayoutUV:Display:   Find: 1716
+[2015.04.19-09.22.50:193][982]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.22.50:193][982]LogLayoutUV:Display:   Rasterize: 782
+[2015.04.19-09.22.50:193][982]LogLayoutUV:Display:   Find: 2908
+[2015.04.19-09.22.50:196][982]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.22.50:196][982]LogLayoutUV:Display:   Rasterize: 671
+[2015.04.19-09.22.50:196][982]LogLayoutUV:Display:   Find: 2894
+[2015.04.19-09.22.50:197][982]LogStaticMesh: Built static mesh [11.559494ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.22.50:203][982]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.19-09.22.50:216][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.22.50:217][982]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.23.42:423][703]LogRenderer:Warning: Reallocating scene render targets to support 1432x896.
+[2015.04.19-09.24.32:765][ 29]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.24.32:765][ 29]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.24.32:766][ 29]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.24.32:766][ 29]LogLayoutUV:Display:   Rasterize: 385
+[2015.04.19-09.24.32:766][ 29]LogLayoutUV:Display:   Find: 1098
+[2015.04.19-09.24.32:768][ 29]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.24.32:768][ 29]LogLayoutUV:Display:   Rasterize: 442
+[2015.04.19-09.24.32:768][ 29]LogLayoutUV:Display:   Find: 1561
+[2015.04.19-09.24.32:769][ 29]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.24.32:769][ 29]LogLayoutUV:Display:   Rasterize: 419
+[2015.04.19-09.24.32:769][ 29]LogLayoutUV:Display:   Find: 1583
+[2015.04.19-09.24.32:771][ 29]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.24.32:771][ 29]LogLayoutUV:Display:   Rasterize: 455
+[2015.04.19-09.24.32:771][ 29]LogLayoutUV:Display:   Find: 1727
+[2015.04.19-09.24.32:773][ 29]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.24.32:773][ 29]LogLayoutUV:Display:   Rasterize: 449
+[2015.04.19-09.24.32:773][ 29]LogLayoutUV:Display:   Find: 1631
+[2015.04.19-09.24.32:773][ 29]LogStaticMesh: Built static mesh [8.284193ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.24.39:386][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E616171D00
+[2015.04.19-09.24.52:507][401]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/tree2_LOD.obj)
+[2015.04.19-09.25.13:062][401]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Content/FBX/ImportOptions/index.html
+[2015.04.19-09.25.49:809][401]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/tree2_LOD.obj
+[2015.04.19-09.25.49:819][401]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.25.49:823][401]LogLinker:Warning: Can't find file '/Game/Models/pCube5Mat'
+[2015.04.19-09.25.49:823][401]LogLinker:Warning: Can't find file '/Game/Models/pCube5Mat'
+[2015.04.19-09.25.49:823][401]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/pCube5Mat.pCube5Mat'
+[2015.04.19-09.25.49:863][401]LogMaterial: Missing cached shader map for material pCube5Mat, compiling.
+[2015.04.19-09.25.49:872][401]LogFbx:Warning: Triangulating static mesh pCube5
+[2015.04.19-09.25.49:941][401]LogLinker:Warning: Can't find file '/Game/Models/polySurface1662Mat'
+[2015.04.19-09.25.49:941][401]LogLinker:Warning: Can't find file '/Game/Models/polySurface1662Mat'
+[2015.04.19-09.25.49:941][401]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1662Mat.polySurface1662Mat'
+[2015.04.19-09.25.49:946][401]LogMaterial: Missing cached shader map for material polySurface1662Mat, compiling.
+[2015.04.19-09.25.49:957][401]LogLinker:Warning: Can't find file '/Game/Models/polySurface1663Mat'
+[2015.04.19-09.25.49:957][401]LogLinker:Warning: Can't find file '/Game/Models/polySurface1663Mat'
+[2015.04.19-09.25.49:957][401]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1663Mat.polySurface1663Mat'
+[2015.04.19-09.25.49:971][401]LogMaterial: Missing cached shader map for material polySurface1663Mat, compiling.
+[2015.04.19-09.25.49:983][401]LogLinker:Warning: Can't find file '/Game/Models/polySurface1664Mat'
+[2015.04.19-09.25.49:984][401]LogLinker:Warning: Can't find file '/Game/Models/polySurface1664Mat'
+[2015.04.19-09.25.49:984][401]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/polySurface1664Mat.polySurface1664Mat'
+[2015.04.19-09.25.49:992][401]LogMaterial: Missing cached shader map for material polySurface1664Mat, compiling.
+[2015.04.19-09.25.50:006][401]LogFbx:Warning: Triangulating static mesh polySurface1664
+[2015.04.19-09.25.50:009][401]LogFbx: == Initial material list:
+[2015.04.19-09.25.50:009][401]LogFbx: 0: pCube5Mat
+[2015.04.19-09.25.50:009][401]LogFbx: 1: polySurface1662Mat
+[2015.04.19-09.25.50:009][401]LogFbx: 2: polySurface1663Mat
+[2015.04.19-09.25.50:009][401]LogFbx: 3: polySurface1664Mat
+[2015.04.19-09.25.50:009][401]LogFbx: == After sorting:
+[2015.04.19-09.25.50:009][401]LogFbx: 0: pCube5Mat
+[2015.04.19-09.25.50:009][401]LogFbx: 1: polySurface1662Mat
+[2015.04.19-09.25.50:009][401]LogFbx: 2: polySurface1663Mat
+[2015.04.19-09.25.50:009][401]LogFbx: 3: polySurface1664Mat
+[2015.04.19-09.25.50:009][401]LogFbx: == Mapping table:
+[2015.04.19-09.25.50:009][401]LogFbx:   sort 0 -> 0
+[2015.04.19-09.25.50:009][401]LogFbx:   sort 1 -> 1
+[2015.04.19-09.25.50:009][401]LogFbx:   sort 2 -> 2
+[2015.04.19-09.25.50:009][401]LogFbx:   sort 3 -> 3
+[2015.04.19-09.25.50:015][401]LogStaticMesh: Building static mesh tree2_LOD...
+[2015.04.19-09.25.50:025][401]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.25.50:030][401]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.04.19-09.25.50:030][401]LogLayoutUV:Display:   Rasterize: 2869
+[2015.04.19-09.25.50:030][401]LogLayoutUV:Display:   Find: 7491
+[2015.04.19-09.25.50:035][401]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.04.19-09.25.50:035][401]LogLayoutUV:Display:   Rasterize: 2066
+[2015.04.19-09.25.50:035][401]LogLayoutUV:Display:   Find: 4933
+[2015.04.19-09.25.50:044][401]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.04.19-09.25.50:044][401]LogLayoutUV:Display:   Rasterize: 3207
+[2015.04.19-09.25.50:044][401]LogLayoutUV:Display:   Find: 10763
+[2015.04.19-09.25.50:051][401]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.04.19-09.25.50:051][401]LogLayoutUV:Display:   Rasterize: 3201
+[2015.04.19-09.25.50:051][401]LogLayoutUV:Display:   Find: 10865
+[2015.04.19-09.25.50:061][401]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.04.19-09.25.50:061][401]LogLayoutUV:Display:   Rasterize: 2985
+[2015.04.19-09.25.50:061][401]LogLayoutUV:Display:   Find: 8765
+[2015.04.19-09.25.50:066][401]LogStaticMesh: Built static mesh [55.959019ms] /Game/Models/tree2_LOD.tree2_LOD
+[2015.04.19-09.25.50:116][401]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.25.50:117][401]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.26.27:754][534]LogActorFactory: Actor Factory created tree2_LOD
+[2015.04.19-09.26.28:427][551]LogActorFactory: Actor Factory created tree2_LOD
+[2015.04.19-09.26.28:436][551]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.26.28:458][551]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.26.39:893][820]LogUnrealMath: Expression Error : No value recognized
+[2015.04.19-09.26.39:893][820]LogUnrealMath: Expression Error : Error in expression
+[2015.04.19-09.26.39:893][820]LogUnrealMath: Expression Error : No value recognized
+[2015.04.19-09.26.39:893][820]LogUnrealMath: Expression Error : Error in expression
+[2015.04.19-09.26.48:117][ 82]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.19-09.26.48:145][ 82]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.19-09.27.08:867][564]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX)
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.04.19-09.27.08:869][564]LogFbx: ItemName: Video, ItemCount : 2
+[2015.04.19-09.27.11:215][564]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX
+[2015.04.19-09.27.11:223][564]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.27.11:227][564]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.27.11:228][564]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.27.11:228][564]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/Material__29.Material__29'
+[2015.04.19-09.27.11:229][564]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.27.11:229][564]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.27.11:229][564]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/grassDrySilDiffuse.grassDrySilDiffuse'
+[2015.04.19-09.27.11:229][564]LogStreaming:Warning: Failed to read file 'grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.27.11:229][564]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.27.11:229][564]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.27.11:229][564]LogFbxMaterialImport:Warning: Unable to find TEXTure file grassDrySilDiffuse.bmp. Tried:
+ - grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp
+[2015.04.19-09.27.11:236][564]LogMaterial: Missing cached shader map for material Material__29, compiling.
+[2015.04.19-09.27.11:245][564]LogFbx: == Initial material list:
+[2015.04.19-09.27.11:245][564]LogFbx: 0: Material #29
+[2015.04.19-09.27.11:245][564]LogFbx: == After sorting:
+[2015.04.19-09.27.11:245][564]LogFbx: 0: Material #29
+[2015.04.19-09.27.11:245][564]LogFbx: == Mapping table:
+[2015.04.19-09.27.11:245][564]LogFbx:   sort 0 -> 0
+[2015.04.19-09.27.11:249][564]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.27.11:250][564]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.27.11:251][564]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.27.11:251][564]LogLayoutUV:Display:   Rasterize: 464
+[2015.04.19-09.27.11:251][564]LogLayoutUV:Display:   Find: 1509
+[2015.04.19-09.27.11:254][564]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.27.11:254][564]LogLayoutUV:Display:   Rasterize: 654
+[2015.04.19-09.27.11:254][564]LogLayoutUV:Display:   Find: 2629
+[2015.04.19-09.27.11:256][564]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.27.11:256][564]LogLayoutUV:Display:   Rasterize: 753
+[2015.04.19-09.27.11:256][564]LogLayoutUV:Display:   Find: 2886
+[2015.04.19-09.27.11:259][564]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.27.11:259][564]LogLayoutUV:Display:   Rasterize: 730
+[2015.04.19-09.27.11:259][564]LogLayoutUV:Display:   Find: 2975
+[2015.04.19-09.27.11:262][564]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.27.11:262][564]LogLayoutUV:Display:   Rasterize: 800
+[2015.04.19-09.27.11:262][564]LogLayoutUV:Display:   Find: 3164
+[2015.04.19-09.27.11:263][564]LogStaticMesh: Built static mesh [13.566621ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.27.11:268][564]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.19-09.27.11:385][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.27.11:385][564]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.28.39:780][720]LogExportMeshUtils: Fbx LOD loading
+[2015.04.19-09.28.39:788][720]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX
+[2015.04.19-09.28.39:795][720]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.28.39:797][720]LogFbx: == Initial material list:
+[2015.04.19-09.28.39:797][720]LogFbx: 0: Material #29
+[2015.04.19-09.28.39:797][720]LogFbx: == After sorting:
+[2015.04.19-09.28.39:797][720]LogFbx: 0: Material #29
+[2015.04.19-09.28.39:798][720]LogFbx: == Mapping table:
+[2015.04.19-09.28.39:798][720]LogFbx:   sort 0 -> 0
+[2015.04.19-09.28.39:858][720]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.28.39:858][720]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.28.39:859][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:859][720]LogLayoutUV:Display:   Rasterize: 389
+[2015.04.19-09.28.39:859][720]LogLayoutUV:Display:   Find: 1101
+[2015.04.19-09.28.39:861][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:861][720]LogLayoutUV:Display:   Rasterize: 472
+[2015.04.19-09.28.39:861][720]LogLayoutUV:Display:   Find: 1540
+[2015.04.19-09.28.39:862][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:862][720]LogLayoutUV:Display:   Rasterize: 552
+[2015.04.19-09.28.39:862][720]LogLayoutUV:Display:   Find: 1553
+[2015.04.19-09.28.39:864][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:864][720]LogLayoutUV:Display:   Rasterize: 446
+[2015.04.19-09.28.39:864][720]LogLayoutUV:Display:   Find: 1659
+[2015.04.19-09.28.39:866][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:866][720]LogLayoutUV:Display:   Rasterize: 447
+[2015.04.19-09.28.39:866][720]LogLayoutUV:Display:   Find: 1683
+[2015.04.19-09.28.39:866][720]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.28.39:867][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:867][720]LogLayoutUV:Display:   Rasterize: 413
+[2015.04.19-09.28.39:867][720]LogLayoutUV:Display:   Find: 1120
+[2015.04.19-09.28.39:869][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:869][720]LogLayoutUV:Display:   Rasterize: 427
+[2015.04.19-09.28.39:869][720]LogLayoutUV:Display:   Find: 1556
+[2015.04.19-09.28.39:870][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:870][720]LogLayoutUV:Display:   Rasterize: 426
+[2015.04.19-09.28.39:870][720]LogLayoutUV:Display:   Find: 1675
+[2015.04.19-09.28.39:872][720]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.28.39:872][720]LogLayoutUV:Display:   Rasterize: 585
+[2015.04.19-09.28.39:872][720]LogLayoutUV:Display:   Find: 1631
+[2015.04.19-09.28.39:874][720]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.28.39:874][720]LogLayoutUV:Display:   Rasterize: 447
+[2015.04.19-09.28.39:874][720]LogLayoutUV:Display:   Find: 1686
+[2015.04.19-09.28.39:874][720]LogStaticMesh: Built static mesh [25.359938ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.28.39:897][720]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.19-09.29.49:894][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.04.19-09.29.50:339][ 72]LogSavePackage: Save=428.734314ms
+[2015.04.19-09.29.50:339][ 72]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/MyMap-1st_Auto2014850E1419DA9972DFCFDB17F98B1C6.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Maps/MyMap-1st_Auto2.umap'
+[2015.04.19-09.29.50:346][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyMap-1st' took 0.497
+[2015.04.19-09.29.50:346][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.497
+[2015.04.19-09.29.50:381][ 72]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/CartoonGrassFBX] ([1] browsable assets)...
+[2015.04.19-09.29.50:410][ 72]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/CartoonGrassFBX.CartoonGrassFBX]
+[2015.04.19-09.29.50:410][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/CartoonGrassFBX]
+[2015.04.19-09.29.50:813][ 72]LogSavePackage: Save=398.709076ms
+[2015.04.19-09.29.50:813][ 72]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/CartoonGrassFBX_Auto2625BBAEF4E4323792267AFBA305E5889.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/CartoonGrassFBX_Auto2.uasset'
+[2015.04.19-09.29.50:825][ 72]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Material__29] ([1] browsable assets)...
+[2015.04.19-09.29.50:842][ 72]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Material__29.Material__29]
+[2015.04.19-09.29.50:842][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Material__29]
+[2015.04.19-09.29.50:845][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material__29" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/Material__29_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.04.19-09.29.51:363][ 72]LogSavePackage: Save=516.926453ms
+[2015.04.19-09.29.51:364][ 72]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Material__29_Auto27954217C464CCA0BD00D90891A42B01B.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Autosaves/Game/Models/Material__29_Auto2.uasset'
+[2015.04.19-09.29.51:380][ 72]LogFileHelpers: Auto-saving content packages took 1.035
+[2015.04.19-09.30.16:078][808]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.30.16:078][808]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.30.16:079][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:079][808]LogLayoutUV:Display:   Rasterize: 397
+[2015.04.19-09.30.16:079][808]LogLayoutUV:Display:   Find: 1133
+[2015.04.19-09.30.16:081][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:081][808]LogLayoutUV:Display:   Rasterize: 432
+[2015.04.19-09.30.16:081][808]LogLayoutUV:Display:   Find: 1544
+[2015.04.19-09.30.16:082][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:082][808]LogLayoutUV:Display:   Rasterize: 421
+[2015.04.19-09.30.16:082][808]LogLayoutUV:Display:   Find: 1557
+[2015.04.19-09.30.16:084][808]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.30.16:084][808]LogLayoutUV:Display:   Rasterize: 442
+[2015.04.19-09.30.16:084][808]LogLayoutUV:Display:   Find: 1805
+[2015.04.19-09.30.16:086][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:086][808]LogLayoutUV:Display:   Rasterize: 463
+[2015.04.19-09.30.16:086][808]LogLayoutUV:Display:   Find: 1622
+[2015.04.19-09.30.16:086][808]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.30.16:087][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:087][808]LogLayoutUV:Display:   Rasterize: 375
+[2015.04.19-09.30.16:087][808]LogLayoutUV:Display:   Find: 1141
+[2015.04.19-09.30.16:089][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:089][808]LogLayoutUV:Display:   Rasterize: 430
+[2015.04.19-09.30.16:089][808]LogLayoutUV:Display:   Find: 1731
+[2015.04.19-09.30.16:090][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:090][808]LogLayoutUV:Display:   Rasterize: 424
+[2015.04.19-09.30.16:090][808]LogLayoutUV:Display:   Find: 1735
+[2015.04.19-09.30.16:092][808]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.30.16:092][808]LogLayoutUV:Display:   Rasterize: 446
+[2015.04.19-09.30.16:092][808]LogLayoutUV:Display:   Find: 1791
+[2015.04.19-09.30.16:094][808]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.16:094][808]LogLayoutUV:Display:   Rasterize: 432
+[2015.04.19-09.30.16:094][808]LogLayoutUV:Display:   Find: 1659
+[2015.04.19-09.30.16:094][808]LogStaticMesh: Built static mesh [109.630684ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.30.45:116][438]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.30.45:116][438]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.30.45:116][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:116][438]LogLayoutUV:Display:   Rasterize: 384
+[2015.04.19-09.30.45:116][438]LogLayoutUV:Display:   Find: 1133
+[2015.04.19-09.30.45:119][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:119][438]LogLayoutUV:Display:   Rasterize: 462
+[2015.04.19-09.30.45:119][438]LogLayoutUV:Display:   Find: 1515
+[2015.04.19-09.30.45:119][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:120][438]LogLayoutUV:Display:   Rasterize: 421
+[2015.04.19-09.30.45:120][438]LogLayoutUV:Display:   Find: 1635
+[2015.04.19-09.30.45:121][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:121][438]LogLayoutUV:Display:   Rasterize: 449
+[2015.04.19-09.30.45:121][438]LogLayoutUV:Display:   Find: 1661
+[2015.04.19-09.30.45:123][438]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.04.19-09.30.45:123][438]LogLayoutUV:Display:   Rasterize: 424
+[2015.04.19-09.30.45:123][438]LogLayoutUV:Display:   Find: 1812
+[2015.04.19-09.30.45:124][438]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.30.45:124][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:124][438]LogLayoutUV:Display:   Rasterize: 365
+[2015.04.19-09.30.45:124][438]LogLayoutUV:Display:   Find: 1127
+[2015.04.19-09.30.45:126][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:126][438]LogLayoutUV:Display:   Rasterize: 435
+[2015.04.19-09.30.45:126][438]LogLayoutUV:Display:   Find: 1552
+[2015.04.19-09.30.45:127][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:127][438]LogLayoutUV:Display:   Rasterize: 445
+[2015.04.19-09.30.45:127][438]LogLayoutUV:Display:   Find: 1528
+[2015.04.19-09.30.45:129][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:129][438]LogLayoutUV:Display:   Rasterize: 447
+[2015.04.19-09.30.45:129][438]LogLayoutUV:Display:   Find: 1720
+[2015.04.19-09.30.45:131][438]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.30.45:131][438]LogLayoutUV:Display:   Rasterize: 451
+[2015.04.19-09.30.45:131][438]LogLayoutUV:Display:   Find: 1672
+[2015.04.19-09.30.45:132][438]LogStaticMesh: Built static mesh [30.477707ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.31.03:209][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/CartoonGrassFBX" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/CartoonGrassFBX.uasset" SILENT=true
+[2015.04.19-09.31.03:570][651]LogSavePackage: Save=359.591980ms
+[2015.04.19-09.31.03:570][651]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/CartoonGrassFBXF4D6833348A53C86618EEA8B148D586F.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/CartoonGrassFBX.uasset'
+[2015.04.19-09.31.16:670][998]LogActorFactory: Actor Factory created CartoonGrassFBX
+[2015.04.19-09.31.17:101][  9]LogActorFactory: Actor Factory created CartoonGrassFBX
+[2015.04.19-09.31.17:112][  9]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.31.17:137][  9]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.19-09.31.24:006][231]Cmd: DELETE
+[2015.04.19-09.31.24:006][231]Cmd: ACTOR DELETE
+[2015.04.19-09.31.24:012][231]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.04.19-09.31.24:036][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E605A1EF20
+[2015.04.19-09.31.24:038][231]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2015.04.19-09.31.40:079][430]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX)
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: Model, ItemCount : 1
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: Material, ItemCount : 1
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: Texture, ItemCount : 2
+[2015.04.19-09.31.40:081][430]LogFbx: ItemName: Video, ItemCount : 2
+[2015.04.19-09.31.42:834][430]LogFbx: Loading FBX Scene from C:/Users/licki_000/Downloads/Models/CartoonGrassFBX.FBX
+[2015.04.19-09.31.42:845][430]LogFbx: FBX Scene Loaded Succesfully
+[2015.04.19-09.31.42:850][430]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.31.42:850][430]LogLinker:Warning: Can't find file '/Game/Models/Material__29'
+[2015.04.19-09.31.42:850][430]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Models/Material__29.Material__29'
+[2015.04.19-09.31.42:851][430]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.31.42:851][430]LogLinker:Warning: Can't find file '/Game/Models/grassDrySilDiffuse'
+[2015.04.19-09.31.42:851][430]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Models/grassDrySilDiffuse.grassDrySilDiffuse'
+[2015.04.19-09.31.42:851][430]LogStreaming:Warning: Failed to read file 'grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.31.42:851][430]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.31.42:851][430]LogStreaming:Warning: Failed to read file 'C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp' error.
+[2015.04.19-09.31.42:851][430]LogFbxMaterialImport:Warning: Unable to find TEXTure file grassDrySilDiffuse.bmp. Tried:
+ - grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/..\CartoonGrass\grassDrySilDiffuse.bmp
+ - C:/Users/licki_000/Downloads/Models/grassDrySilDiffuse.bmp
+[2015.04.19-09.31.42:912][430]LogMaterial: Missing cached shader map for material Material__29, compiling.
+[2015.04.19-09.31.42:921][430]LogFbx: == Initial material list:
+[2015.04.19-09.31.42:921][430]LogFbx: 0: Material #29
+[2015.04.19-09.31.42:921][430]LogFbx: == After sorting:
+[2015.04.19-09.31.42:921][430]LogFbx: 0: Material #29
+[2015.04.19-09.31.42:921][430]LogFbx: == Mapping table:
+[2015.04.19-09.31.42:921][430]LogFbx:   sort 0 -> 0
+[2015.04.19-09.31.42:926][430]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.31.42:926][430]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.31.42:927][430]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.42:927][430]LogLayoutUV:Display:   Rasterize: 393
+[2015.04.19-09.31.42:927][430]LogLayoutUV:Display:   Find: 1194
+[2015.04.19-09.31.42:929][430]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.42:929][430]LogLayoutUV:Display:   Rasterize: 515
+[2015.04.19-09.31.42:929][430]LogLayoutUV:Display:   Find: 1516
+[2015.04.19-09.31.42:930][430]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.42:930][430]LogLayoutUV:Display:   Rasterize: 436
+[2015.04.19-09.31.42:930][430]LogLayoutUV:Display:   Find: 1530
+[2015.04.19-09.31.42:932][430]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.42:932][430]LogLayoutUV:Display:   Rasterize: 471
+[2015.04.19-09.31.42:932][430]LogLayoutUV:Display:   Find: 1621
+[2015.04.19-09.31.42:934][430]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.42:934][430]LogLayoutUV:Display:   Rasterize: 459
+[2015.04.19-09.31.42:934][430]LogLayoutUV:Display:   Find: 1674
+[2015.04.19-09.31.42:934][430]LogStaticMesh: Built static mesh [8.385486ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.31.42:948][430]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.04.19-09.31.42:987][430]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.19-09.31.42:988][430]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.04.19-09.31.50:568][646]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.31.50:568][646]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.31.50:569][646]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.50:569][646]LogLayoutUV:Display:   Rasterize: 390
+[2015.04.19-09.31.50:569][646]LogLayoutUV:Display:   Find: 1092
+[2015.04.19-09.31.50:571][646]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.50:571][646]LogLayoutUV:Display:   Rasterize: 427
+[2015.04.19-09.31.50:571][646]LogLayoutUV:Display:   Find: 1521
+[2015.04.19-09.31.50:571][646]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.50:571][646]LogLayoutUV:Display:   Rasterize: 409
+[2015.04.19-09.31.50:571][646]LogLayoutUV:Display:   Find: 1523
+[2015.04.19-09.31.50:573][646]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.50:573][646]LogLayoutUV:Display:   Rasterize: 456
+[2015.04.19-09.31.50:573][646]LogLayoutUV:Display:   Find: 1652
+[2015.04.19-09.31.50:575][646]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.04.19-09.31.50:575][646]LogLayoutUV:Display:   Rasterize: 427
+[2015.04.19-09.31.50:575][646]LogLayoutUV:Display:   Find: 1628
+[2015.04.19-09.31.50:576][646]LogStaticMesh: Built static mesh [8.115965ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.32.01:600][ 19]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.32.01:600][ 19]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.04.19-09.32.01:708][ 19]LogLayoutUV:Display: PackCharts: 107 ms
+[2015.04.19-09.32.01:708][ 19]LogLayoutUV:Display:   Rasterize: 27382
+[2015.04.19-09.32.01:708][ 19]LogLayoutUV:Display:   Find: 212013
+[2015.04.19-09.32.01:955][ 19]LogLayoutUV:Display: PackCharts: 247 ms
+[2015.04.19-09.32.01:955][ 19]LogLayoutUV:Display:   Rasterize: 41665
+[2015.04.19-09.32.01:955][ 19]LogLayoutUV:Display:   Find: 508497
+[2015.04.19-09.32.02:080][ 19]LogLayoutUV:Display: PackCharts: 125 ms
+[2015.04.19-09.32.02:080][ 19]LogLayoutUV:Display:   Rasterize: 43673
+[2015.04.19-09.32.02:080][ 19]LogLayoutUV:Display:   Find: 234492
+[2015.04.19-09.32.03:300][ 19]LogLayoutUV:Display: PackCharts: 127 ms
+[2015.04.19-09.32.03:300][ 19]LogLayoutUV:Display:   Rasterize: 43827
+[2015.04.19-09.32.03:300][ 19]LogLayoutUV:Display:   Find: 237787
+[2015.04.19-09.32.03:300][ 19]LogStaticMesh: Built static mesh [1701.065308ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.33.22:192][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.19-09.33.22:646][689]LogSavePackage: Save=433.667328ms
+[2015.04.19-09.33.22:646][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/MyMap-1st9377AB734944A47557FD87BCA66D611A.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.19-09.33.22:666][689]LogFileHelpers: Saving map 'MyMap-1st' took 0.563
+[2015.04.19-09.33.22:685][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/polySurface1650Mat" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/polySurface1650Mat.uasset" SILENT=true
+[2015.04.19-09.33.22:942][689]LogSavePackage: Save=254.064789ms
+[2015.04.19-09.33.22:942][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/polySurface1650Mat8F75B89648E5E2C2C98603BDC87AF0FB.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/polySurface1650Mat.uasset'
+[2015.04.19-09.33.23:095][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/polySurface1646Mat" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/polySurface1646Mat.uasset" SILENT=true
+[2015.04.19-09.33.23:532][689]LogSavePackage: Save=435.596375ms
+[2015.04.19-09.33.23:532][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/polySurface1646Mat20FC4A1843665E3B0A8867876BA3748A.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/polySurface1646Mat.uasset'
+[2015.04.19-09.33.23:554][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/tree2" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/tree2.uasset" SILENT=true
+[2015.04.19-09.33.23:922][689]LogSavePackage: Save=358.699066ms
+[2015.04.19-09.33.23:922][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/tree28E1A6B1241A63335A4875E88A312128A.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/tree2.uasset'
+[2015.04.19-09.33.23:944][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/pCube3Mat" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/pCube3Mat.uasset" SILENT=true
+[2015.04.19-09.33.24:395][689]LogSavePackage: Save=400.348938ms
+[2015.04.19-09.33.24:395][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/pCube3Mat22B03CBB4A783F2683B28E81F87C7697.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/pCube3Mat.uasset'
+[2015.04.19-09.33.24:418][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/polySurface1651Mat" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/polySurface1651Mat.uasset" SILENT=true
+[2015.04.19-09.33.24:839][689]LogSavePackage: Save=419.599609ms
+[2015.04.19-09.33.24:839][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/polySurface1651MatBECE313444BD9C432F4A0EBDFC2AF933.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/polySurface1651Mat.uasset'
+[2015.04.19-09.33.24:861][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material__29" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/Material__29.uasset" SILENT=true
+[2015.04.19-09.33.25:353][689]LogSavePackage: Save=490.636597ms
+[2015.04.19-09.33.25:353][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Material__295539A92A4E84A1C0DC4491BBBD8B33E9.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/Material__29.uasset'
+[2015.04.19-09.33.25:375][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/CartoonGrassFBX" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/CartoonGrassFBX.uasset" SILENT=true
+[2015.04.19-09.33.25:743][689]LogSavePackage: Save=364.852539ms
+[2015.04.19-09.33.25:743][689]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/CartoonGrassFBX521BB3344195CA6C6A3D4F8AAF7C5D4C.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/CartoonGrassFBX.uasset'
+[2015.04.19-09.33.27:949][752]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2015.04.19-09.33.27:969][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2015.04.19-09.33.28:016][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2015.04.19-09.33.28:016][752]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2015.04.19-09.33.28:016][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2015.04.19-09.33.28:016][752]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2015.04.19-09.33.28:018][752]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2015.04.19-09.33.28:049][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_18, compiling.
+[2015.04.19-09.33.29:483][784]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.33.29:483][784]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.33.29:483][784]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.33.39:360][131]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2015.04.19-09.33.39:389][131]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_18, compiling.
+[2015.04.19-09.33.40:008][146]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.04.19-09.33.40:008][146]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.33.40:008][146]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.04.19-09.33.45:363][268]LogMaterialEditor: Applying material Material__29
+[2015.04.19-09.33.46:916][268]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2015.04.19-09.33.46:995][268]LogMaterial: Missing cached shader map for material Material__29, compiling.
+[2015.04.19-09.33.47:018][268]LogMaterial: Missing cached shader map for material Material__29, compiling.
+[2015.04.19-09.33.47:032][268]LogMaterial: 0.005108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.19-09.33.49:340][309]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.04.19-09.33.49:340][309]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.04.19-09.33.49:340][309]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.04.19-09.34.13:151][795]LogStaticMesh: Building static mesh CartoonGrassFBX...
+[2015.04.19-09.34.13:151][795]LogStaticMesh: Built static mesh [57.382927ms] /Game/Models/CartoonGrassFBX.CartoonGrassFBX
+[2015.04.19-09.35.18:149][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E61816BB00
+[2015.04.19-09.35.18:149][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E61816A980
+[2015.04.19-09.35.18:149][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E6012DC720
+[2015.04.19-09.35.30:982][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MyMap-1st" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.19-09.35.31:443][870]LogSavePackage: Save=437.442413ms
+[2015.04.19-09.35.31:443][870]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/MyMap-1stA4DE2C5C49A536DB3BE19DBD877901A5.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Maps/MyMap-1st.umap'
+[2015.04.19-09.35.31:472][870]LogFileHelpers: Saving map 'MyMap-1st' took 0.578
+[2015.04.19-09.35.31:496][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Material__29" FILE="C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/Material__29.uasset" SILENT=true
+[2015.04.19-09.35.31:885][870]LogSavePackage: Save=383.379852ms
+[2015.04.19-09.35.31:885][870]LogSavePackage: Moving 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Saved/Material__2979FFAD2D43D9FF32095280A434091BA6.tmp' to 'C:/Users/licki_000/Desktop/UnrealMidTerm/TestMyProject/Content/Models/Material__29.uasset'
+[2015.04.19-09.35.34:296][993]Cmd: QUIT_EDITOR
+[2015.04.19-09.35.34:974][993]LogExit: Preparing to exit.
+[2015.04.19-09.35.36:132][993]LogExit: Editor shut down
+[2015.04.19-09.35.36:132][993]LogExit: Transaction tracking system shut down
+[2015.04.19-09.35.36:133][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E67437B240
+[2015.04.19-09.35.36:133][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E67437ADE0
+[2015.04.19-09.35.36:134][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E674203740
+[2015.04.19-09.35.36:135][993]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E673EC9760
+[2015.04.19-09.35.36:158][993]LogExit: Object subsystem successfully closed.
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module MaterialEditor (174)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (173)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module EditorWidgets (169)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module CollectionManager (168)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module SceneOutliner (167)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.04.19-09.35.36:218][993]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.04.19-09.35.36:219][993]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.04.19-09.35.36:268][993]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.04.19-09.35.36:440][993]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.04.19-09.35.36:441][993]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.04.19-09.35.36:441][993]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.04.19-09.35.36:441][993]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.04.19-09.35.36:442][993]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.04.19-09.35.36:543][993]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.04.19-09.35.36:543][993]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.04.19-09.35.36:543][993]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.04.19-09.35.36:545][993]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.04.19-09.35.36:546][993]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.04.19-09.35.36:546][993]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.04.19-09.35.36:546][993]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.04.19-09.35.36:546][993]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.04.19-09.35.36:546][993]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.04.19-09.35.36:549][993]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.04.19-09.35.36:563][993]LogDerivedDataCache: Shutdown
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.19-09.35.36:563][993]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.19-09.35.36:565][993]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.19-09.35.36:565][993]LogExit: Exiting.
+[2015.04.19-09.35.36:575][993]Log file closed, 04/19/15 11:35:36
